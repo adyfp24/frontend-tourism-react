@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./pages/LandingPage";
+import Blog from "./pages/Blog";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +13,7 @@ function App() {
     <div className='app'>
       <Routes>
         <Route path="/" element={ <LandingPage/> } />
+        <Route path="/blog" element={ <Blog/> } />
       </Routes>
     </div>
   );
