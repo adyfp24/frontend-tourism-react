@@ -16,7 +16,7 @@ function Navbar() {
                                 <li><a className="hover:text-custom-200" href="#">Destinasi</a></li>
                                 <li><a className="hover:text-custom-200" href="#">Blog</a></li>
                                 <li><a className="hover:text-custom-200" href="#">FAQ</a></li>
-                                <li><a className="bg-custom-200 text-white font-sans font-normal px-8 py-2 rounded-2xl hover:text-gray-200" href="#">Login</a></li>
+                                <li><a className="bg-custom-200 text-white font-sans font-normal px-8 py-2 rounded-2xl hover:bg-white hover:text-black" href="#">Login</a></li>
                             </ul>
                         </div>
                     </div>
