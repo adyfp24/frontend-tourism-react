@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        custom: {
+          100: '#F2F1EB',
+          200: '#4EA394'
+        },
+      },
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
         Epilogue: ["Epilogue", "sans-serif"]

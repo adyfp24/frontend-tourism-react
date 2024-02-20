@@ -11,6 +11,7 @@ import Semeru from "./pages/destinasi/Semeru";
 import TuguMalang from "./pages/destinasi/TuguMalang";
 import BlogDetail from "./pages/blog/BlogDetail";
 import ChatBot from "./pages/chatbotAI/ChatBot";
+import About from "./pages/About";
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={ <LandingPage/> } />
         <Route path="/blog" element={ <Blog/> } />
-        <Route path="/about" element={ <Blog/> } />
+        <Route path="/about" element={ <About/> } />
         <Route path="/blog" element={ <Blog/> } />
         <Route path="/blog/content" element={ <BlogDetail/> } />
         <Route path="/destinasi" element={ <Destinasi/> } />
