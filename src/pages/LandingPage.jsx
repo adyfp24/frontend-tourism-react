@@ -2,7 +2,7 @@ import React from 'react'
 
 function LandingPage() {
   return (
-    <div>Test Landing Page</div>
+    <div className='flex justify-center mt-72'>Landing Page</div>
   )
 }
 
