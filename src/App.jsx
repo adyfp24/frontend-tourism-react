@@ -12,14 +12,14 @@ import TuguMalang from "./pages/destinasi/TuguMalang";
 import BlogDetail from "./pages/blog/BlogDetail";
 import ChatBot from "./pages/chatbotAI/ChatBot";
 import About from "./pages/About";
+// import Login from "./auth/login";
 
 function App() {
-
   return (
     <div className='app'>
       <Routes>
         <Route path="/" element={ <LandingPage/> } />
-        <Route path="/blog" element={ <Blog/> } />
+        {/* <Route path="/auth" element={ <Login/> } /> */}
         <Route path="/about" element={ <About/> } />
         <Route path="/blog" element={ <Blog/> } />
         <Route path="/blog/content" element={ <BlogDetail/> } />
@@ -30,7 +30,7 @@ function App() {
         <Route path="/destinasi/semeru" element={ <Semeru/> } />
         <Route path="/destinasi/tugu-malang" element={ <TuguMalang/> } />
         <Route path="/chatbot" element={ <ChatBot/> } />
-      </Routes>
+      </Routes> 
     </div>
   );
 }

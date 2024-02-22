@@ -11,9 +11,41 @@ import sensasiJeep from '../../assets/images/sensasi-jeep.png'
 import camping from '../../assets/images/camping.png'
 import sunrise from '../../assets/images/berburu-sunrise.png'
 import arcopodo from '../../assets/images/arcopodo.png'
+import mapSemeru from '../../assets/images/map-semeru.png'
+import ranuPani from '../../assets/images/ranupani.png'
+import warning from '../../assets/images/warning.png'
+import reviewPutu from '../../assets/images/review-putu.png'
+import reviewSalak from '../../assets/images/review-salak.png'
+import reviewTempe from '../../assets/images/review-tempe.png'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import Slider from 'react-slick'
 
 function Semeru() {
-
+    const settings = {
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        variableWidth: true,
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
+    };
 
     return (
         <div className='bg-custom-100 h-full'>
@@ -34,10 +66,11 @@ function Semeru() {
                     <img className='' src={semeruImg} alt="" />
                 </div>
             </section>
+
             <section id='content-section' className='mx-16 my-6 font-sans'>
                 <h3 className='font-medium text-2xl'>Apa saja di Gunung Semeru?</h3>
                 <div className="grid w-full py-12 grid-cols-3 gap-10 mb-12">
-                    <div className="md:col-span-1 row-span-2 bg-white shadow-md rounded-xl">
+                    <div className="md:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
                         <div className='flex flex-col'>
                             <div className='h-72 w-full'>
                                 <img className='w-full max-h-full' src={ranuKumbolo} alt="" />
@@ -48,7 +81,7 @@ function Semeru() {
                             </div>
                         </div>
                     </div>
-                    <div className="md:col-span-1 bg-white shadow-md rounded-xl">
+                    <div className="md:col-span-1 bg-custom-300 shadow-md rounded-xl">
                         <div className='flex flex-col'>
                             <div className='h-40 w-full'>
                                 <img className='w-full max-h-full' src={padangOmbo} alt="" />
@@ -60,11 +93,12 @@ function Semeru() {
                         </div>
                     </div>
 
-                    <div className="md:col-span-1 row-span-2 bg-white shadow-md rounded-xl">
+                    <div className="md:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
                         <div className='flex flex-col'>
                             <div className='h-72 w-full'>
                                 <img className='w-full max-h-full' src={puncakSemeru} alt="" />
                             </div>
+
                             <div className='mb-16 mx-4'>
                                 <h1 className='font-bold my-4'>Puncak Mahameru</h1>
                                 <p className='font-thin'>Puncak merupakan impian bagi semua pendaki, termasuk Puncak Mahameru yang menjadi puncak gunung tertinggi ke-2 di Indonesia.</p>
@@ -72,10 +106,10 @@ function Semeru() {
                         </div>
                     </div>
 
-                    <div className="md:col-span-1 row-span-2 bg-white shadow-md rounded-xl">
+                    <div className="md:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
                         <div className='flex flex-col'>
                             <div className='h-72 w-full'>
-                                <img className='w-full max-h-full' src={puncakSemeru} alt="" />
+                                <img className='w-full max-h-full' src={ranuPani} alt="" />
                             </div>
                             <div className='mb-16 mx-4'>
                                 <h1 className='font-bold my-4'>Ranu Pani</h1>
@@ -85,7 +119,7 @@ function Semeru() {
                         </div>
                     </div>
 
-                    <div className="md:col-span-1 bg-white shadow-md rounded-xl">
+                    <div className="md:col-span-1 bg-custom-300 shadow-md rounded-xl">
                         <div className='flex flex-col'>
                             <div className='h-40 w-full'>
                                 <img className='w-full max-h-full' src={tanjakanCinta} alt="" />
@@ -97,7 +131,7 @@ function Semeru() {
                         </div>
                     </div>
 
-                    <div className="md:col-span-1 bg-white shadow-md rounded-xl">
+                    <div className="md:col-span-1 bg-custom-300 shadow-md rounded-xl">
                         <div className='flex flex-col'>
                             <div className='h-40 w-full'>
                                 <img className='w-full max-h-full' src={ranuRegulo} alt="" />
@@ -114,7 +148,7 @@ function Semeru() {
             <section id='activity' className='mx-16 my-6 font-sans'>
                 <h3 className='font-medium text-2xl'>Rekomendasi aktivitas di Gunung Semeru</h3>
                 <div className="grid w-full py-12 grid-cols-3 gap-10 mb-12">
-                    <div className="md:col-span-1 row-span-2 bg-white shadow-md rounded-xl">
+                    <div className="md:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
                         <div className='flex flex-col'>
                             <div className='h-72 w-full'>
                                 <img className='w-full max-h-full' src={sunrise} alt="" />
@@ -125,7 +159,7 @@ function Semeru() {
                             </div>
                         </div>
                     </div>
-                    <div className="md:col-span-1 bg-white shadow-md rounded-xl">
+                    <div className="md:col-span-1 bg-custom-300 shadow-md rounded-xl">
                         <div className='flex flex-col'>
                             <div className='h-40 w-full'>
                                 <img className='w-full max-h-full' src={camping} alt="" />
@@ -137,7 +171,7 @@ function Semeru() {
                         </div>
                     </div>
 
-                    <div className="md:col-span-1 row-span-2 bg-white shadow-md rounded-xl">
+                    <div className="md:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
                         <div className='flex flex-col'>
                             <div className='h-72 w-full'>
                                 <img className='w-full max-h-full' src={pendakian} alt="" />
@@ -149,7 +183,7 @@ function Semeru() {
                         </div>
                     </div>
 
-                    <div className="md:col-span-1 row-span-2 bg-white shadow-md rounded-xl">
+                    <div className="md:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
                         <div className='flex flex-col'>
                             <div className='h-72 w-full'>
                                 <img className='w-full max-h-full' src={sensasiJeep} alt="" />
@@ -161,7 +195,7 @@ function Semeru() {
                         </div>
                     </div>
 
-                    <div className="md:col-span-1 bg-white shadow-md rounded-xl">
+                    <div className="md:col-span-1 bg-custom-300 shadow-md rounded-xl">
                         <div className='flex flex-col'>
                             <div className='h-40 w-full'>
                                 <img className='w-full max-h-full' src={arcopodo} alt="" />
@@ -173,18 +207,64 @@ function Semeru() {
                         </div>
                     </div>
 
-                    <div className="md:col-span-1 bg-white shadow-md rounded-xl">
+                    <div className="md:col-span-1shadow-md rounded-xl bg-custom-300">
                         <div className='flex flex-col'>
                             <div className='h-40 w-full'>
                                 <img className='w-full max-h-full' src={padangOmbo} alt="" />
                             </div>
                             <div className='mb-6 mx-4'>
-                                <h1 className='font-bold my-4'>Berburu Foto Instagenik</h1>
+                                <h1 className='font-bold py-4'>Berburu Foto Instagenik</h1>
                                 <p className='font-thin'>Tak afdol jika sudah jauh-jauh ke Gunung Semeru tapi tidak mengabadikan momen-momen indah yang bahkan didukung pemandangan super indah.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section id='location' className='mx-16 py-6 font-sans'>
+                <div className='flex w-full'>
+                    <div className='flex w-2/3 mr-6 rounded-lg'>
+                        <img src={mapSemeru} alt="" />
+                    </div>
+                    <div className='flex flex-col w-1/3'>
+                        <div className='h-1/2 bg-custom-300 rounded-lg mb-4 ml-4'>
+                            Cuaca
+                        </div>
+                        <div className='h-1/2 bg-custom-300 rounded-lg mt-4 ml-4'>
+                            Jam Operasional
+                        </div>
+                    </div>
+                </div>
+                <div className='flex w-full bg-custom-300 h-28 mt-12 rounded-3xl'>
+                    <div className='w-2/12 flex justify-center items-center'>
+                        <img className='w-12 h-12' src={warning} alt="" />
+                    </div>
+                    <div className='w-10/12 font-bold font-sans flex justify-start items-center'>
+                        <p className='mr-6 py-6'>untuk pendakian minimal dalam 1 rombongan terdapat 5 orang dan didampingi minimal 1 orang yang telah berpengalaman dalam mendaki</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id='umkm' className='mx-16 my-6 max-h-80 font-sans'>
+                <h3 className='font-medium text-2xl'>Support UMKM sekitar </h3>
+                <div className='px-6'>
+                    <Slider className='w-full py-12 mb-12 px-2' {...settings}>
+                        <div className=''>
+                            <img className='w-5/6' src={reviewPutu} alt="" />
+                        </div>
+                        <div className=''>
+                            <img className='w-5/6' src={reviewSalak} alt="" />
+                        </div>
+                        <div className=''>
+                            <img className='w-5/6' src={reviewTempe} alt="" />
+                        </div>
+                    </ Slider>
+                </div>
+            </section>
+
+            <section id='review' className='mx-16 my-6 pt-6 h-screen font-sans'>
+                <h3 className='font-medium text-2xl'>Review </h3>
+                
             </section>
         </div>
     )

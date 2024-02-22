@@ -9,7 +9,8 @@ export default {
       colors: {
         custom: {
           100: '#F2F1EB',
-          200: '#4EA394'
+          200: '#4EA394',
+          300: '#B4C6A6'
         },
       },
       fontFamily: {
