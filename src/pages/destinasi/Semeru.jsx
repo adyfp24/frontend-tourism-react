@@ -17,6 +17,11 @@ import warning from '../../assets/images/warning.png'
 import reviewPutu from '../../assets/images/review-putu.png'
 import reviewSalak from '../../assets/images/review-salak.png'
 import reviewTempe from '../../assets/images/review-tempe.png'
+import camera from '../../assets/images/camera.png'
+import star from '../../assets/images/star.png'
+import destinasi1 from '../../assets/images/des-tugu.png'
+import destinasi2 from '../../assets/images/des-angkut.png'
+import destinasi3 from '../../assets/images/des-park.png'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
@@ -245,7 +250,7 @@ function Semeru() {
                 </div>
             </section>
 
-            <section id='umkm' className='mx-16 my-6 max-h-80 font-sans'>
+            <section id='umkm' className='mx-16 my-6 h-full font-sans'>
                 <h3 className='font-medium text-2xl'>Support UMKM sekitar </h3>
                 <div className='px-6'>
                     <Slider className='w-full py-12 mb-12 px-2' {...settings}>
@@ -262,10 +267,46 @@ function Semeru() {
                 </div>
             </section>
 
-            <section id='review' className='mx-16 my-6 pt-6 h-screen font-sans'>
+            <section id='review' className='mx-16 my-6 pt-6 h-full font-sans'>
                 <h3 className='font-medium text-2xl'>Review </h3>
-                
+                <h3 className='font-thin text-sm mt-2'>ini isi review susah</h3>
+                <div className='flex justify-around items-center w-full h-24 rounded-full mt-4 bg-custom-400'>
+                    <div className='w-1/12'>
+                        <img className='mx-6 w-3/6 hover:cursor-pointer' src={camera} alt="" />
+                    </div>
+                    <div className='text-gray-400 font-light text-2xl z-10 w-7/12'>
+                        <input type="text" id="name" placeholder='Bagikan pengalamanmu ...' name="name" className='px-8 h-24 bg-custom-400 w-full' />
+                    </div>
+                    <div className='flex w-4/12 items-center'>
+                        <div className='flex h-full items-center'>
+                            <img className='hover:cursor-pointer' src={star} alt="" />
+                            <img className='hover:cursor-pointer' src={star} alt="" />
+                            <img className='hover:cursor-pointer' src={star} alt="" />
+                            <img className='hover:cursor-pointer' src={star} alt="" />
+                            <img className='hover:cursor-pointer' src={star} alt="" />
+                        </div>
+                        <button className='ml-12 px-12 py-2 mx-5 bg-custom-200 hover:bg-green-50 rounded-3xl font-semibold text-lg text-white hover:text-black'>kirim</button>
+                    </div>
+                </div>
             </section>
+
+            <section id='kunjungan' className='mx-16 mt-14 my-6 h-full font-sans'>
+                <h3 className='font-medium text-2xl'>Kunjungi destinasi lainnya </h3>
+                <div className='px-6'>
+                    <Slider className='w-full py-12 mb-12 px-2' {...settings}>
+                        <div className=''>
+                            <img className='w-5/6' src={destinasi1} alt="" />
+                        </div>
+                        <div className=''>
+                            <img className='w-5/6' src={destinasi2} alt="" />
+                        </div>
+                        <div className=''>
+                            <img className='w-5/6' src={destinasi3} alt="" />
+                        </div>
+                    </ Slider>
+                </div>
+            </section>
+
         </div>
     )
 }

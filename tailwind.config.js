@@ -10,7 +10,8 @@ export default {
         custom: {
           100: '#F2F1EB',
           200: '#4EA394',
-          300: '#B4C6A6'
+          300: '#B4C6A6',
+          400: '#E9E7E7'
         },
       },
       fontFamily: {
