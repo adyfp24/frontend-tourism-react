@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../includes/Navbar'
+import Footer from '../../includes/Footer'
 import semeruImg from '../../assets/images/semeru.png'
 import ranuRegulo from '../../assets/images/regulo.png'
 import ranuKumbolo from '../../assets/images/kumbolo.png'
@@ -22,6 +23,7 @@ import star from '../../assets/images/star.png'
 import destinasi1 from '../../assets/images/des-tugu.png'
 import destinasi2 from '../../assets/images/des-angkut.png'
 import destinasi3 from '../../assets/images/des-park.png'
+import tipsMalang from '../../assets/images/tips-malang.png'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
@@ -57,7 +59,7 @@ function Semeru() {
             <Navbar />
             <section id='head-section' className='flex justify-between pt-8 mb-12'>
                 <div className='flex flex-col font-sans w-1/2 ml-16'>
-                    <div className='font-medium mt-14 text-8xl'>
+                    <div className='font-medium mt-14 md:text-8xl text-2xl'>
                         <h1 className='tracking-wider'>GUNUNG</h1>
                         <h1 className='tracking-wider'>SEMERU</h1>
                     </div>
@@ -307,6 +309,13 @@ function Semeru() {
                 </div>
             </section>
 
+            <section id='tips' className='mx-16 mt-14 my-6 mb-12 h-full font-sans'>
+                <h3 className='font-medium text-2xl'>Tips berwisata ke Malang</h3>
+                <div className='px-6 py-6'>
+                    <img className='w-full' src={tipsMalang} alt="" />
+                </div>
+            </section>
+            <Footer />
         </div>
     )
 }
