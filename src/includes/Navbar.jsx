@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <div className="flex flex-wrap">
             <section className="relative mx-auto">
-                <nav className="flex justify-between bg-custom-100 text-black w-screen">
+                <nav className="fixed top-0 left-0 z-50 flex justify-between bg-custom-100 text-black w-screen">
                     <div className="px-5 lg:px-12 py-4 flex w-full justify-between items-center">
                         <a className="text-xl font-sans font-semibold font-heading" href="#">
                             MalangKuy.id

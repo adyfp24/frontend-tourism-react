@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../includes/Navbar'
 
 function Destinasi() {
   return (
-    <div>Destinasi</div>
+    <div>
+      <Navbar />
+      Destinasi
+    </div>
   )
 }
 

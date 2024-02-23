@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../includes/Navbar'
 
 function LandingPage() {
   return (
-    <div className='flex justify-center mt-72'>Landing Page</div>
+    <div className=''>
+      <Navbar />
+      Landing Page
+    </div>
   )
 }
 
