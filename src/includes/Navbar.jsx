@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
@@ -8,15 +9,27 @@ function Navbar() {
                     <div className="px-5 lg:px-12 py-4 flex w-full justify-between items-center">
                         <a className="text-xl font-sans font-semibold font-heading" href="#">
                             MalangKuy.id
-                        </a>       
+                        </a>
                         <div className="hidden md:flex space-x-5 items-center">
                             <ul className="hidden md:flex mx-auto font-light font-sans font-heading space-x-8">
-                                <li><a className="hover:text-custom-200" href="#">Beranda</a></li>
-                                <li><a className="hover:text-custom-200" href="#">Tentang</a></li>
-                                <li><a className="hover:text-custom-200" href="#">Destinasi</a></li>
-                                <li><a className="hover:text-custom-200" href="#">Blog</a></li>
-                                <li><a className="hover:text-custom-200" href="#">FAQ</a></li>
-                                <li><a className="bg-custom-200 text-white font-sans font-normal px-8 py-2 rounded-2xl hover:bg-white hover:text-black" href="#">Login</a></li>
+                                <Link to='/'>
+                                    <li><a className="hover:text-custom-200" href="#">Beranda</a></li>
+                                </Link>
+                                <Link to='/about'>
+                                    <li><a className="hover:text-custom-200" href="#">Tentang</a></li>
+                                </Link>
+                                <Link to='/destinasi'>
+                                    <li><a className="hover:text-custom-200" href="#">Destinasi</a></li>
+                                </Link>
+                                <Link to='/blog'>
+                                    <li><a className="hover:text-custom-200" href="#">Blog</a></li>
+                                </Link>
+                                <Link to='/FAQ'>
+                                    <li><a className="hover:text-custom-200" href="#">FAQ</a></li>
+                                </Link>
+                                <Link to='/auth'>
+                                    <li><a className="bg-custom-200 text-white font-sans font-normal px-8 py-2 rounded-2xl hover:bg-white hover:text-black" href="#">Login</a></li>
+                                </Link>
                             </ul>
                         </div>
                     </div>
