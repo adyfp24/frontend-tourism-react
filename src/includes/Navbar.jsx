@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Button from '../components/Button'
 
 function Navbar() {
     return (
@@ -28,7 +29,8 @@ function Navbar() {
                                     <li><a className="hover:text-custom-200" href="#">FAQ</a></li>
                                 </Link>
                                 <Link to='/auth'>
-                                    <li><a className="bg-custom-200 text-white font-sans font-normal px-8 py-2 rounded-2xl hover:bg-white hover:text-black" href="#">Login</a></li>
+                                    <li><Button label={'Login'} /></li>
+                                    {/* <li><a className="bg-custom-200 text-white font-sans font-normal px-8 py-2 rounded-2xl hover:bg-white hover:text-black" href="#">Login</a></li> */}
                                 </Link>
                             </ul>
                         </div>
