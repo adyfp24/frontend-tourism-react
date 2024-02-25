@@ -5,6 +5,10 @@ import avatar from '../assets/images/blog/Avatar.png'
 import semeruImg from '../assets/images/blog/semeru-2.png'
 import padangBunga from '../assets/images/ororo ombo.png'
 import campingImg from '../assets/images/camping.png'
+import jeepImg from '../assets/images/blog/jeep-img.png'
+import pantaiImg from '../assets/images/blog/pantai-img.png'
+import santerraImg from '../assets/images/blog/santerra.png'
+import tipsMalang from '../assets/images/tips-malang.png'
 import Footer from '../includes/Footer'
 
 function Blog() {
@@ -65,7 +69,7 @@ function Blog() {
             </div>
           </div>
           <div className='flex flex-col bg-custom-300 w-1/3 rounded-2xl'>
-          <div className='h-48'>
+            <div className='h-48'>
               <img className='' src={campingImg} alt="" />
             </div>
             <div className='h-56 p-3'>
@@ -81,7 +85,90 @@ function Blog() {
 
       <section id='artikel' className='mx-16 my-6 h-full font-sans'>
         <h3 className='font-medium text-2xl'>Artikel Lainnya</h3>
-        
+        <div className='flex w-full pt-6'>
+          <div className='flex flex-col bg-custom-300 w-1/3 mr-6 rounded-2xl'>
+            <div className='h-48'>
+              <img className='max-h-full w-full' src={santerraImg} alt="" />
+            </div>
+            <div className='h-56 p-3'>
+              <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
+              <h3 className='font-semibold text-base'>Intip Suasana Di Santerra De Laponte</h3>
+              <h6 className='font-semibold text-sm pb-1'>By <span className='font-thin'>Anna</span></h6>
+              <p className='font-thin text-sm py-1'>Santerra De Laponte adalah wisata keluarga yang baru saja diresmikan di Malang. Seperti apa suasana di dalamnya? Mari kita lihat....</p>
+              <h6 className='font-extralight text-xs text-gray-600'>20 Juni 2023</h6>
+            </div>
+          </div>
+          <div className='flex flex-col bg-custom-300 w-1/3 mr-6 rounded-2xl'>
+            <div className='h-48'>
+              <img className='' src={pantaiImg} alt="" />
+            </div>
+            <div className='h-56 p-3'>
+              <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
+              <h3 className='font-semibold text-base'>Pantai-Pantai Di Malang </h3>
+              <h6 className='font-semibold text-sm pb-1'>By <span className='font-thin'>Rani</span></h6>
+              <p className='font-thin text-sm py-1'>Tak hanya dengan wisata di daratnya yang menakjubkan. Tapi Malang juga menawarkan berbagai pengalaman dengan pantai mereka....</p>
+              <h6 className='font-extralight text-xs text-gray-600'>14 September 2022</h6>
+            </div>
+          </div>
+          <div className='flex flex-col bg-custom-300 w-1/3 rounded-2xl'>
+            <div className='h-48'>
+              <img className='' src={jeepImg} alt="" />
+            </div>
+            <div className='h-56 p-3'>
+              <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
+              <h3 className='font-semibold text-base'>Fasilitas Jeep di Gunung Semeru</h3>
+              <h6 className='font-semibold text-sm pb-1'>By <span className='font-thin'>Toni</span></h6>
+              <p className='font-thin text-sm py-1'>Gunung tentunya identik dengan aktivitas mendaki. Namun, bagi pengunjung yang tidak ingin mendaki, Gunung Semeru menawarkan fas...</p>
+              <h6 className='font-extralight text-xs text-gray-600'>05 Mei 2021</h6>
+            </div>
+          </div>
+        </div>
+
+        <div className='flex w-full pt-6'>
+          <div className='flex flex-col bg-custom-300 w-1/3 mr-6 rounded-2xl'>
+            <div className='h-48'>
+              <img className='max-h-full w-full' src={santerraImg} alt="" />
+            </div>
+            <div className='h-56 p-3'>
+              <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
+              <h3 className='font-semibold text-base'>Intip Suasana Di Santerra De Laponte</h3>
+              <h6 className='font-semibold text-sm pb-1'>By <span className='font-thin'>Anna</span></h6>
+              <p className='font-thin text-sm py-1'>Santerra De Laponte adalah wisata keluarga yang baru saja diresmikan di Malang. Seperti apa suasana di dalamnya? Mari kita lihat....</p>
+              <h6 className='font-extralight text-xs text-gray-600'>20 Juni 2023</h6>
+            </div>
+          </div>
+          <div className='flex flex-col bg-custom-300 w-1/3 mr-6 rounded-2xl'>
+            <div className='h-48'>
+              <img className='' src={pantaiImg} alt="" />
+            </div>
+            <div className='h-56 p-3'>
+              <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
+              <h3 className='font-semibold text-base'>Pantai-Pantai Di Malang </h3>
+              <h6 className='font-semibold text-sm pb-1'>By <span className='font-thin'>Rani</span></h6>
+              <p className='font-thin text-sm py-1'>Tak hanya dengan wisata di daratnya yang menakjubkan. Tapi Malang juga menawarkan berbagai pengalaman dengan pantai mereka....</p>
+              <h6 className='font-extralight text-xs text-gray-600'>14 September 2022</h6>
+            </div>
+          </div>
+          <div className='flex flex-col bg-custom-300 w-1/3 rounded-2xl'>
+            <div className='h-48'>
+              <img className='' src={jeepImg} alt="" />
+            </div>
+            <div className='h-56 p-3'>
+              <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
+              <h3 className='font-semibold text-base'>Fasilitas Jeep di Gunung Semeru</h3>
+              <h6 className='font-semibold text-sm pb-1'>By <span className='font-thin'>Toni</span></h6>
+              <p className='font-thin text-sm py-1'>Gunung tentunya identik dengan aktivitas mendaki. Namun, bagi pengunjung yang tidak ingin mendaki, Gunung Semeru menawarkan fas...</p>
+              <h6 className='font-extralight text-xs text-gray-600'>05 Mei 2021</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id='tips' className='mx-16 mt-14 my-6 mb-12 h-full font-sans'>
+        <h3 className='font-medium text-2xl'>Tips berwisata ke Malang</h3>
+        <div className='px-6 py-6'>
+          <img className='w-full' src={tipsMalang} alt="" />
+        </div>
       </section>
 
       <Footer />

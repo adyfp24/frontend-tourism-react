@@ -1,12 +1,14 @@
 import React from 'react'
 import Navbar from '../includes/Navbar'
-import semeruImg from '../assets/images/semeru.png'
+import headImg from '../assets/images/about/head-about.png'
 
 function About() {
     return (
-        <div className='bg-custom-100 h-screen'>
+        <div className='bg-custom-100 h-full pt-24 px-32'>
             <Navbar />
-            about
+            <div className='w-'>
+                <img className='max-w-full' src={headImg} alt="" />
+            </div>
         </div>
     )
 }
