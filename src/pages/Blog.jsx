@@ -58,7 +58,7 @@ function Blog() {
           </div>
           <div className='flex flex-col bg-custom-300 w-1/3 mr-6 rounded-2xl'>
             <div className='h-48'>
-              <img className='' src={padangBunga} alt="" />
+              <img className='max-h-full w-full' src={padangBunga} alt="" />
             </div>
             <div className='h-56 p-3'>
               <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
