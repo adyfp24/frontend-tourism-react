@@ -13,6 +13,7 @@ export default {
           300: '#B4C6A6',
           400: '#E9E7E7',
           500: '#445D48',
+          600: '#D8EFE9'
         },
       },
       fontFamily: {
