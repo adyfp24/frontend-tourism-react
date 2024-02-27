@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../includes/Navbar";
-import marker from "../../assets/images/Chatbot/Marker.png";
+// import marker from "../../assets/images/Chatbot/Marker.png";
 import chat from "../../assets/images/Chatbot/Chat.png";
 import subscription from "../../assets/images/Chatbot/Manage-Subscription.png";
 import settings from "../../assets/images/Chatbot/Settings.png";
@@ -26,7 +26,7 @@ function ChatBot() {
       <Navbar />
       <aside className="bg-white h-[800px] w-20 mt-20 rounded-tr-3xl rounded-br-3xl">
         <div className="flex">
-          <img src={marker} alt="" className="mt-10" />
+          <img src='' alt="" className="mt-10" />
           <img src={chat} alt="" className="w-12 h-12 mt-10 ml-2 " />
         </div>
         <div>
