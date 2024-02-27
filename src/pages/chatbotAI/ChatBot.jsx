@@ -19,6 +19,8 @@ import copy from "../../assets/images/Chatbot/copy.png";
 import bookmark from "../../assets/images/Chatbot/bookmark.png";
 import texticon from "../../assets/images/Chatbot/magic wand tool.png";
 import send from "../../assets/images/Chatbot/Send Icon.png";
+import leftstroke from  "../../assets/images/Chatbot/Line Left.png";
+import rightstroke from  "../../assets/images/Chatbot/Line Right.png";
 
 function ChatBot() {
   return (
@@ -186,8 +188,10 @@ function ChatBot() {
                 </div>
               </div>
             </div>
-            <div className="w-full text-center mb-2">
+            <div className="w-full text-center mb-2 flex justify-center items-center gap-4">
+              <img src={leftstroke} className="w-1/3 h-1" />
               <p>Hari ini</p>
+              <img src={rightstroke} className="w-1/3 h-1" />
             </div>
             <div className="grid grid-rows-2 grid-flow-col w-full">
               <div className="flex justify-start ">
