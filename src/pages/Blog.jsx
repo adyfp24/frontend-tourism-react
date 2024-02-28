@@ -10,6 +10,7 @@ import pantaiImg from '../assets/images/blog/pantai-img.png'
 import santerraImg from '../assets/images/blog/santerra.png'
 import tipsMalang from '../assets/images/tips-malang.png'
 import Footer from '../includes/Footer'
+import { Link } from 'react-router-dom'
 
 function Blog() {
   return (
@@ -22,7 +23,9 @@ function Blog() {
             <p className='font-bold text-4xl mb-4'>Liburan? Museum <br />Angkut, yuk</p>
             <p className='font-light mb-4'>Museum Angkut adalah salah satu destinasi wisata yang menampilkan berbagai perkembangan transportasi dunia, cocok untuk menambah wawasan kamu!</p>
             <div>
+              <Link to='/blog/content'>
               <button className='hover:bg-custom-200 hover:text-white bg-white rounded-3xl px-6 py-3'>Selengkapnya</button>
+              </Link>
             </div>
             <div className='w-7/8 mr-8 my-6 h-0.5 bg-black'></div>
             <div className='flex'>
