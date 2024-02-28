@@ -6,6 +6,8 @@ import museum1 from '../../assets/images/blog/museum-detail.png'
 import museum2 from '../../assets/images/blog/museum2-detail.png'
 import museum3 from '../../assets/images/blog/museum3-detail.png'
 import museum4 from '../../assets/images/blog/museum4-detail.png'
+import profile from '../../assets/images/blog/Oval.png'
+import tipsMalang from '../../assets/images/tips-malang.png'
 
 function BlogDetail() {
   return (
@@ -53,7 +55,136 @@ function BlogDetail() {
         </section>
 
         <div className='w-full h-0.5 my-3 bg-slate-600'></div>
+
+        <h3 className='font-semibold text-2xl mb-4'>
+          Ulasan Museum Angkut
+        </h3>
+
+        <section id='ulasan' className='px-6'>
+          <div className='w-full h-32 bg-white rounded-xl px-6'>
+            <div className='flex justify-between items-center'>
+              <div className='flex mt-4 items-center'>
+                <img className='mr-3' src={profile} alt="" />
+                <h3 className='font-medium'>Yuni Sarah</h3>
+                <h6 className='mx-8 font-thin'>1 jam lalu</h6>
+              </div>
+              <div className='font-bold text-indigo-500 mr-4'>
+                reply
+              </div>
+            </div>
+            <p className='mt-3 font-extralight text-gray-400'>Bagus banget emangg museum angkut. Aku kesana sama keluarga pas liburan anak-anak pada seneng sihh, bagus tempatnya bersih terawat</p>
+          </div>
+          <div className='w-full h-32 bg-white rounded-xl px-6 my-6'>
+            <div className='flex justify-between items-center'>
+              <div className='flex mt-4 items-center'>
+                <img className='mr-3' src={profile} alt="" />
+                <h3 className='font-medium'>Yuni Sarah</h3>
+                <h6 className='mx-8 font-thin'>1 jam lalu</h6>
+              </div>
+              <div className='font-bold text-indigo-500 mr-4'>
+                reply
+              </div>
+            </div>
+            <p className='mt-3 font-extralight text-gray-400'>Recomended kesini, tapi kalo udah musim liburan ya gitu deh rame banget, tapi worth it soalnya tempatnya bagus, ada juga musholanya jadi ga ribet kemana mana</p>
+          </div>
+          <div className='flex'>
+            <div className='w-1 h-72 mx-8 bg-black'>
+
+            </div>
+            <div className='flex flex-col'>
+              <div className='w-full h-32 bg-white rounded-xl px-6'>
+                <div className='flex justify-between items-center'>
+                  <div className='flex mt-4 items-center'>
+                    <img className='mr-3' src={profile} alt="" />
+                    <h3 className='font-medium'>Yuni Sarah</h3>
+                    <h6 className='mx-8 font-thin'>1 jam lalu</h6>
+                  </div>
+                  <div className='font-bold text-indigo-500 mr-4'>
+                    reply
+                  </div>
+                </div>
+                <p className='mt-3 font-extralight text-gray-400'>Bagus banget emangg museum angkut. Aku kesana sama keluarga pas liburan anak-anak pada seneng sihh, bagus tempatnya bersih terawat</p>
+              </div>
+              <div className='w-full h-32 bg-white rounded-xl px-6 my-6'>
+                <div className='flex justify-between items-center'>
+                  <div className='flex mt-4 items-center'>
+                    <img className='mr-3' src={profile} alt="" />
+                    <h3 className='font-medium'>Yuni Sarah</h3>
+                    <h6 className='mx-8 font-thin'>1 jam lalu</h6>
+                  </div>
+                  <div className='font-bold text-indigo-500 mr-4'>
+                    reply
+                  </div>
+                </div>
+                <p className='mt-3 font-extralight text-gray-400'>Recomended kesini, tapi kalo udah musim liburan ya gitu deh rame banget, tapi worth it soalnya tempatnya bagus, ada juga musholanya jadi ga ribet kemana mana</p>
+              </div>
+            </div>
+          </div>
+          <div className='w-full h-32 bg-white rounded-xl px-6 my-6'>
+            <div className='flex justify-between items-center'>
+              <div className='flex mt-4 items-center'>
+                <img className='mr-3' src={profile} alt="" />
+              </div>
+              <textarea placeholder='tambahkan ulasan' name="" id="" cols="9" rows="4" className='w-3/4 mt-4 text-start'></textarea>
+              <div className='font-bold mr-4'>
+                <button className='px-6 py-2 text-white bg-custom-200 rounded-xl'>Kirim</button>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
+
+      <section id='lanjut-baca'>
+        <div className='mx-16'>
+          <h3 className='font-semibold text-2xl mb-4'>
+            Lanjut Baca
+          </h3>
+          <div className='flex w-full pt-6'>
+          <div className='flex flex-col bg-custom-300 w-1/3 mr-6 rounded-2xl'>
+            <div className='h-48'>
+              <img className='max-h-full w-full' src={museum1} alt="" />
+            </div>
+            <div className='h-56 p-3'>
+              <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
+              <h3 className='font-semibold text-base'>Intip Suasana Di Santerra De Laponte</h3>
+              <h6 className='font-semibold text-sm pb-1'>By <span className='font-thin'>Anna</span></h6>
+              <p className='font-thin text-sm py-1'>Santerra De Laponte adalah wisata keluarga yang baru saja diresmikan di Malang. Seperti apa suasana di dalamnya? Mari kita lihat....</p>
+              <h6 className='font-extralight text-xs text-gray-600'>20 Juni 2023</h6>
+            </div>
+          </div>
+          <div className='flex flex-col bg-custom-300 w-1/3 mr-6 rounded-2xl'>
+            <div className='h-48'>
+              <img className='' src={museum1} alt="" />
+            </div>
+            <div className='h-56 p-3'>
+              <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
+              <h3 className='font-semibold text-base'>Pantai-Pantai Di Malang </h3>
+              <h6 className='font-semibold text-sm pb-1'>By <span className='font-thin'>Rani</span></h6>
+              <p className='font-thin text-sm py-1'>Tak hanya dengan wisata di daratnya yang menakjubkan. Tapi Malang juga menawarkan berbagai pengalaman dengan pantai mereka....</p>
+              <h6 className='font-extralight text-xs text-gray-600'>14 September 2022</h6>
+            </div>
+          </div>
+          <div className='flex flex-col bg-custom-300 w-1/3 rounded-2xl'>
+            <div className='h-48'>
+              <img className='' src={museum1} alt="" />
+            </div>
+            <div className='h-56 p-3'>
+              <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
+              <h3 className='font-semibold text-base'>Fasilitas Jeep di Gunung Semeru</h3>
+              <h6 className='font-semibold text-sm pb-1'>By <span className='font-thin'>Toni</span></h6>
+              <p className='font-thin text-sm py-1'>Gunung tentunya identik dengan aktivitas mendaki. Namun, bagi pengunjung yang tidak ingin mendaki, Gunung Semeru menawarkan fas...</p>
+              <h6 className='font-extralight text-xs text-gray-600'>05 Mei 2021</h6>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section id='tips' className=' mt-14 my-6 mb-12 h-full font-sans'>
+        <div className=' py-6'>
+          <img className='w-full' src={tipsMalang} alt="" />
+        </div>
+      </section>
       <Footer />
     </div>
   )

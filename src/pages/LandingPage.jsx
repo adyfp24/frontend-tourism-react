@@ -1,6 +1,4 @@
 import React from "react";
-import { ParallaxProvider } from "react-scroll-parallax";
-import { Parallax } from "react-scroll-parallax";
 import Navbar from "../includes/Navbar";
 import Footer from "../includes/Footer";
 import cloud1 from "../assets/images/landingpage/parallax/cloud1.png";
@@ -12,7 +10,7 @@ import mountain3 from "../assets/images/landingpage/parallax/mountain 3.png";
 import tree from "../assets/images/landingpage/parallax/tree.png";
 import bird from "../assets/images/landingpage/parallax/bird.png";
 import ground from "../assets/images/landingpage/parallax/ground.png";
-import bg from "../assets/images/landingpage/parallax/BACKGROUND.png";
+
 
 function LandingPage() {
   return (
