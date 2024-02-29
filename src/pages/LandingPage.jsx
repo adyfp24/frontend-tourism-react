@@ -1,6 +1,4 @@
 import React from "react";
-import { ParallaxProvider } from "react-scroll-parallax";
-import { Parallax } from "react-scroll-parallax";
 import Navbar from "../includes/Navbar";
 import Footer from "../includes/Footer";
 import cloud1 from "../assets/images/landingpage/parallax/cloud1.png";
@@ -12,11 +10,23 @@ import mountain3 from "../assets/images/landingpage/parallax/mountain 3.png";
 import tree from "../assets/images/landingpage/parallax/tree.png";
 import bird from "../assets/images/landingpage/parallax/bird.png";
 import ground from "../assets/images/landingpage/parallax/ground.png";
-import bg from "../assets/images/landingpage/parallax/BACKGROUND.png";
+import bromohead from "../assets/images/landingpage/Bromo.png";
+import malanghead from "../assets/images/landingpage/malang.png";
+import playicon from "../assets/images/landingpage/play.png";
+import mulai from "../assets/images/landingpage/mulai.png";
+import nikmati from "../assets/images/landingpage/nikmati.png";
+import satu from "../assets/images/landingpage/1.png";
+import dua from "../assets/images/landingpage/2.png";
+import tiga from "../assets/images/landingpage/3.png";
+import empat from "../assets/images/landingpage/4.png";
+import lima from "../assets/images/landingpage/5.png";
+import enam from "../assets/images/landingpage/6.png";
+import frame from "../assets/images/landingpage/frame.png";
+import love from "../assets/images/landingpage/love.png";
 
 function LandingPage() {
   return (
-    <div className="">
+    <div className="bg-custom-300">
       <Navbar />
       <section
         id="parallax"
@@ -42,16 +52,49 @@ function LandingPage() {
         <img src={tree} className="absolute -bottom-24 left-0" />
         <img src={ground} className="absolute -bottom-24  left-0" />
       </section>
-    
-      <div className="bg-custom-300 pt-32">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde
-          labore aspernatur corporis velit, alias voluptate. Architecto magni
-          dolor qui, temporibus veniam ipsam? Error numquam nulla dicta officia
-          commodi consectetur?
-        </p>
+
+      <div className="body parallax bg-custom-300 pt-32 flex flex-col items-center ">
+        <div id="body 1" className=" p-6 w-11/12">
+          <div id="tentang malang" className=" flex h-80 rounded-lg">
+            <div className="bg-custom-100 rounded-xl flex relative ">
+              <img src={bromohead} alt="bromo" className="relative h-96 left-10 bottom-7"/>
+              <img src={malanghead} alt="kota malang" className="relative h-96 left-20 bottom-7"/>
+              <img src={playicon} alt="" className="relative right-10 top-36 w-10 h-10 " />
+            </div>
+            <div className="bg-custom-100 rounded-xl pl-20 flex flex-col justify-center text-start">
+              <p className="text-4xl font-semibold pb-3">Tentang Malang</p>
+              <p className="text-xl pb-3">Kota Malang adalah sebuah kota yang terletak di provinsi Jawa Timur, Indonesia,<br/> Kota terbesar kedua di Jawa Timur setelah Surabaya, dan kota terbesar ke-12 di Indonesia.<br/> Kota ini didirikan pada masa Pemerintahan Belanda pada tanggal 1 April 1914 dengan E.K Broeveldt sebagai wali kota pertama.</p>
+              <p className="bg-custom-200 w-2/12 p-4 text-center rounded-full text-white font-semibold">Selengkapnya</p>
+            </div>
+          </div>
+          <div id="mulai petualangan" className="pt-56 bg-red-300">
+            <div className="flex text-white font-bold text-6xl justify-center gap-20">
+              <p>MULAI TEMUKAN</p>
+              <img src={mulai} className="w-auto h-16" />
+              <p>PETUALANGAN</p>
+            </div>
+            <div className="flex text-white font-bold text-6xl justify-center gap-16 pt-4">
+              <p>NIKMATI</p>
+              <img src={nikmati} className="w-auto h-16" />
+              <p>PENGALAMAN MENAKJUBKAN</p>
+            </div>
+          </div>
+          <div id="card" className="bg-blue-500 p-5 grid grid-cols-4 gap-6">
+            <div>
+              <img src={love} alt="" className=""/>
+              <img src={satu} alt="" />
+            </div>
+            <img src={frame} alt="" />
+            <img src={dua} alt="" />
+            <img src={tiga} alt="" />
+            <img src={empat} alt="" />
+            <img src={lima} alt="" />
+            <img src={frame} alt="" />
+            <img src={enam} alt="" />
+          </div>
+        </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
