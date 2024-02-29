@@ -8,6 +8,9 @@ import museum3 from '../../assets/images/blog/museum3-detail.png'
 import museum4 from '../../assets/images/blog/museum4-detail.png'
 import profile from '../../assets/images/blog/Oval.png'
 import tipsMalang from '../../assets/images/tips-malang.png'
+import santerra from '../../assets/images/blog/santerra.png'
+import jeepImg from '../../assets/images/blog/jeep-img.png'
+import pantaiImg from '../../assets/images/blog/pantai-img.png'
 
 function BlogDetail() {
   return (
@@ -142,7 +145,7 @@ function BlogDetail() {
           <div className='flex w-full pt-6'>
           <div className='flex flex-col bg-custom-300 w-1/3 mr-6 rounded-2xl'>
             <div className='h-48'>
-              <img className='max-h-full w-full' src={museum1} alt="" />
+              <img className='max-h-full w-full' src={santerra} alt="" />
             </div>
             <div className='h-56 p-3'>
               <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
@@ -154,7 +157,7 @@ function BlogDetail() {
           </div>
           <div className='flex flex-col bg-custom-300 w-1/3 mr-6 rounded-2xl'>
             <div className='h-48'>
-              <img className='' src={museum1} alt="" />
+              <img className='' src={pantaiImg} alt="" />
             </div>
             <div className='h-56 p-3'>
               <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
@@ -166,7 +169,7 @@ function BlogDetail() {
           </div>
           <div className='flex flex-col bg-custom-300 w-1/3 rounded-2xl'>
             <div className='h-48'>
-              <img className='' src={museum1} alt="" />
+              <img className='' src={jeepImg} alt="" />
             </div>
             <div className='h-56 p-3'>
               <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
