@@ -10,19 +10,6 @@ import mountain3 from "../assets/images/landingpage/parallax/mountain 3.png";
 import tree from "../assets/images/landingpage/parallax/tree.png";
 import bird from "../assets/images/landingpage/parallax/bird.png";
 import ground from "../assets/images/landingpage/parallax/ground.png";
-import bromohead from "../assets/images/landingpage/Bromo.png";
-import malanghead from "../assets/images/landingpage/malang.png";
-import playicon from "../assets/images/landingpage/play.png";
-import mulai from "../assets/images/landingpage/mulai.png";
-import nikmati from "../assets/images/landingpage/nikmati.png";
-import satu from "../assets/images/landingpage/1.png";
-import dua from "../assets/images/landingpage/2.png";
-import tiga from "../assets/images/landingpage/3.png";
-import empat from "../assets/images/landingpage/4.png";
-import lima from "../assets/images/landingpage/5.png";
-import enam from "../assets/images/landingpage/6.png";
-import frame from "../assets/images/landingpage/frame.png";
-import love from "../assets/images/landingpage/love.png";
 
 function LandingPage() {
   return (

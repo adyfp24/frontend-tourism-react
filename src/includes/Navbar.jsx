@@ -8,7 +8,7 @@ function Navbar() {
                 <nav className="fixed top-0 left-0 z-50 flex justify-between bg-custom-100 text-black w-screen">
                     <div className="px-5 lg:px-12 py-4 flex w-full justify-between items-center">
                         <a className="text-xl font-sans font-semibold font-heading" href="#">
-                            MalangKuy.id
+                            MalangKuy
                         </a>
                         <div className="hidden md:flex space-x-5 items-center">
                             <ul className="hidden md:flex mx-auto font-light font-sans font-heading space-x-8">
