@@ -12,6 +12,7 @@ import TuguMalang from "./pages/destinasi/TuguMalang";
 import BlogDetail from "./pages/blog/BlogDetail";
 import ChatBot from "./pages/chatbotAI/ChatBot";
 import About from "./pages/About";
+import 'animate.css';
 // import Login from "./auth/login";
 
 function App() {

@@ -14,6 +14,10 @@ import jatimPark from '../assets/images/about/jtp-about.png'
 import museumAngkut from '../assets/images/about/museum-about.png'
 import tuguMalang from '../assets/images/about/tugu-about.png'
 import cobanRondo from '../assets/images/about/coban-about.png'
+import head1 from '../assets/images/destinasi/head-destinasi.png'
+import head2 from '../assets/images/destinasi/head-destinasi2.png'
+import head3 from '../assets/images/about/head-about3.png'
+import head4 from '../assets/images/about/head-about4.png'
 import Footer from '../includes/Footer'
 
 function About() {
@@ -21,8 +25,15 @@ function About() {
         <div className='bg-custom-100 h-full pt-24 px-0'>
             <Navbar />
 
-            <section id='head-section' className='mx-auto w-2/3 px-16'>
-                <img className='' src={headImg} alt="" />
+            <section id='head-section' className='flex max-w-full pb-60'>
+                <img className='absolute top-24 z-10 max-h-full max-w-full' src={head4} alt="" />
+                <div className='flex flex-col'>
+                    <h1 className='ml-44 pt-20 z-40 font-bold text-8xl text-custom-300'>T E N T A N G</h1>
+                    <h1 className='ml-44 pt-6 z-40 font-bold text-8xl tracking-wider text-custom-300'>M A L A N G</h1>
+                </div>
+                <img className='absolute top-32 right-72 z-30 h-2/3 max-w-full' src={head2} alt="" />
+                <img className='absolute right-28 top-44 z-0 h-2/3 max-w-full' src={head3} alt="" />
+                <img className='absolute right-12 top-40 z-1 h-64 max-w-full' src={head1} alt="" />
             </section>
 
             <section id='tentang-malang' className='pt-36 px-16'>

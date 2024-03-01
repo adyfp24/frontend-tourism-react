@@ -10,6 +10,10 @@ import museumAngkut from '../assets/images/about/museum-about.png'
 import tuguMalang from '../assets/images/about/tugu-about.png'
 import cobanRondo from '../assets/images/about/coban-about.png'
 import tipsMalang from '../assets/images/tips-malang.png'
+import head1 from '../assets/images/destinasi/head-destinasi.png'
+import head2 from '../assets/images/destinasi/head-destinasi2.png'
+import head3 from '../assets/images/destinasi/head-destinasi3.png'
+import head4 from '../assets/images/destinasi/head-destinasi4.png'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
@@ -40,8 +44,21 @@ function Destinasi() {
     ],
   };
   return (
-    <div className='bg-custom-100 h-full'>
+    <div className='bg-custom-100 pt-24 h-full font-sans'>
       <Navbar />
+
+      <section id='head-section' className='flex max-w-full pb-72'>
+        <img className='absolute top-24 z-10 max-h-full max-w-full' src={head4} alt="" />
+        <div className='flex flex-col'>
+          <h1 className='ml-40 pt-20 z-40 font-bold text-8xl text-custom-300'>D E S T I N A S I</h1>
+          <h1 className='ml-40 pt-6 z-40 font-bold text-8xl tracking-wider text-custom-300'>M A L A N G</h1>
+        </div>
+        <img className='absolute top-32 right-72 z-30 h-2/3 max-w-full' src={head2} alt="" />
+        <img className='absolute right-28 top-44 z-0 h-2/3 max-w-full' src={head3} alt="" />
+        <img className='absolute right-12 top-40 z-1 h-64 max-w-full' src={head1} alt="" />
+      </section>
+
+
       <section id='kunjungan' className='mx-16 mt-14 my-6 h-full font-sans'>
         <h3 className='font-medium text-2xl'>Destinasi Favorit</h3>
         <div className='px-6'>
@@ -59,7 +76,7 @@ function Destinasi() {
         </div>
       </section>
       <section id='kunjungan' className='mx-16 mt-14 my-6 h-full font-sans'>
-        <h3 className='font-medium text-2xl'>Rekomendasi Akhir Pekan</h3>
+        <h3 className='font-medium text-2xl'>Rekomendasi Akhir Pekan222</h3>
         <div className='px-6'>
           <Slider className='w-full py-12 mb-12 px-2' {...settings}>
             <div className=''>
@@ -111,7 +128,7 @@ function Destinasi() {
             <div className="md:col-span-1 row-span-3 bg-custom-300 shadow-md rounded-xl">
               <div className='flex flex-col'>
                 <div className='h-full w-full'>
-                  <img className='w-full h-full' src={cobanRondo} alt="" />
+                  <img className='w-full' src={cobanRondo} alt="" />
                 </div>
                 {/* <div className='mb-16 mx-4'>
                                     <h1 className='font-bold my-4'>Pendakian</h1>
