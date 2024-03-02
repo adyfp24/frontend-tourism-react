@@ -319,13 +319,13 @@ function LandingPage() {
         </div>
         <div
           id="masmas"
-          className="bg-blue-900 relative flex items-center justify-center flex-col"
+          className="flex flex-col mb-10"
         >
-          <p className="text-white text-8xl font-semibold mb-10">
+          <p className="text-white relative top-96 text-8xl ml-40 font-semibold mb-10">
             Tips Berkunjung ke <br />
             Malang{" "}
           </p>
-          <p className="text-white text-3xl font-semibold">
+          <p className="text-white relative top-96 text-3xl ml-40 font-semibold">
             Khawatir untuk segala petualanganmu di Malang? Berikut tips yang
             bisa <br /> kamu lakukan untuk mendapatkan pengalaman terbaik{" "}
           </p>
