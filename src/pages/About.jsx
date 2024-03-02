@@ -26,14 +26,14 @@ function About() {
             <Navbar />
 
             <section id='head-section' className='flex max-w-full pb-60'>
-                <img className='absolute top-24 z-10 max-h-full max-w-full' src={head4} alt="" />
+                <img className='animate__animated animate__fadeInLeft absolute top-24 z-10 max-h-full max-w-full' src={head4} alt="" />
                 <div className='flex flex-col'>
-                    <h1 className='ml-44 pt-20 z-40 font-bold text-8xl text-custom-300'>T E N T A N G</h1>
-                    <h1 className='ml-44 pt-6 z-40 font-bold text-8xl tracking-wider text-custom-300'>M A L A N G</h1>
+                    <h1 className='animate__animated animate__fadeInDown ml-44 pt-20 z-40 font-bold text-8xl text-custom-300'>T E N T A N G</h1>
+                    <h1 className='animate__animated animate__fadeInUp ml-44 pt-6 z-40 font-bold text-8xl tracking-wider text-custom-300'>M A L A N G</h1>
                 </div>
-                <img className='absolute top-32 right-72 z-30 h-2/3 max-w-full' src={head2} alt="" />
-                <img className='absolute right-28 top-44 z-0 h-2/3 max-w-full' src={head3} alt="" />
-                <img className='absolute right-12 top-40 z-1 h-64 max-w-full' src={head1} alt="" />
+                <img className='animate__animated animate__fadeInDown absolute top-32 right-72 z-30 h-2/3 max-w-full' src={head2} alt="" />
+                <img className='animate__animated animate__fadeInRight absolute right-28 top-44 z-0 h-2/3 max-w-full' src={head3} alt="" />
+                <img className='animate__animated animate__fadeInUp absolute right-12 top-40 z-1 h-64 max-w-full' src={head1} alt="" />
             </section>
 
             <section id='tentang-malang' className='pt-36 px-16'>
