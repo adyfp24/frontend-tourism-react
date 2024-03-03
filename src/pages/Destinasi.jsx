@@ -167,9 +167,9 @@ function Destinasi() {
       </section>
 
 
-      <section id='tips' className='mx-16 mt-14 my-6 mb-12 h-full font-sans'>
-        <h3 className='font-medium text-2xl'>Tips berwisata ke Malang</h3>
-        <div className='px-6 py-6'>
+      <section id='tips' className='mt-14 my-6 mb-12 h-full font-sans'>
+        <h3 className='font-medium text-2xl px-16'>Tips berwisata ke Malang</h3>
+        <div className=' py-6'>
           <img className='w-full' src={tipsMalang} alt="" />
         </div>
       </section>

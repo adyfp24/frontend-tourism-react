@@ -73,7 +73,7 @@ function Blog() {
           </div>
           <div className='flex flex-col bg-custom-300 w-full sm:w-1/3 mt-6 sm:mt-0 rounded-2xl'>
             <div className='h-48'>
-              <img className='' src={campingImg} alt="" />
+              <img className='max-h-full w-full' src={campingImg} alt="" />
             </div>
             <div className='h-56 p-3'>
               <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
@@ -103,7 +103,7 @@ function Blog() {
           </div>
           <div className='flex flex-col bg-custom-300 w-full sm:w-1/3 mr-6 mt-6 sm:mt-0 rounded-2xl'>
             <div className='h-48'>
-              <img className='' src={pantaiImg} alt="" />
+              <img className='max-h-full w-full' src={pantaiImg} alt="" />
             </div>
             <div className='h-56 p-3'>
               <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
@@ -115,7 +115,7 @@ function Blog() {
           </div>
           <div className='flex flex-col bg-custom-300 w-full sm:w-1/3 mt-6 sm:mt-0 rounded-2xl'>
             <div className='h-48'>
-              <img className='' src={jeepImg} alt="" />
+              <img className='max-h-full w-full' src={jeepImg} alt="" />
             </div>
             <div className='h-56 p-3'>
               <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
@@ -142,7 +142,7 @@ function Blog() {
           </div>
           <div className='flex flex-col bg-custom-300 sm:w-1/3 w-full mr-6 mt-6 sm:mt-0  rounded-2xl'>
             <div className='h-48'>
-              <img className='' src={pantaiImg} alt="" />
+              <img className='max-h-full w-full' src={pantaiImg} alt="" />
             </div>
             <div className='h-56 p-3'>
               <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
@@ -154,7 +154,7 @@ function Blog() {
           </div>
           <div className='flex flex-col bg-custom-300 sm:w-1/3 w-full mt-6 sm:mt-0  rounded-2xl'>
             <div className='h-48'>
-              <img className='' src={jeepImg} alt="" />
+              <img className='max-h-full w-full' src={jeepImg} alt="" />
             </div>
             <div className='h-56 p-3'>
               <h6 className='font-extralight text-xs py-1'>baca 2 menit</h6>
