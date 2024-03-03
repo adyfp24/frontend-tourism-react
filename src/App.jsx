@@ -13,14 +13,14 @@ import BlogDetail from "./pages/blog/BlogDetail";
 import ChatBot from "./pages/chatbotAI/ChatBot";
 import About from "./pages/About";
 import 'animate.css';
-// import Login from "./auth/login";
+import Login from "./auth/login";
 
 function App() {
   return (
     <div className='app'>
       <Routes>
         <Route path="/" element={ <LandingPage/> } />
-        {/* <Route path="/auth" element={ <Login/> } /> */}
+        <Route path="/auth" element={ <Login/> } />
         <Route path="/about" element={ <About/> } />
         <Route path="/blog" element={ <Blog/> } />
         <Route path="/blog/content" element={ <BlogDetail/> } />
