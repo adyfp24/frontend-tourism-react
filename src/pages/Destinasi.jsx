@@ -48,14 +48,14 @@ function Destinasi() {
       <Navbar />
 
       <section id='head-section' className='flex max-w-full pb-72'>
-        <img className='animate__animated animate__fadeInLeft absolute top-24 z-10 max-h-full max-w-full' src={head4} alt="" />
+      <img className='animate__animated animate__fadeInLeft absolute top-24 z-10 max-h-full w-1/3 sm:w-80' src={head4} alt="" />
         <div className='flex flex-col'>
-          <h1 className='animate__animated animate__fadeInDown ml-40 pt-20 z-40 font-bold text-8xl text-custom-300'>D E S T I N A S I</h1>
-          <h1 className='animate__animated animate__fadeInUp ml-40 pt-6 z-40 font-bold text-8xl tracking-wider text-custom-300'>M A L A N G</h1>
+          <h1 className='animate__animated animate__fadeInDown ml-10 sm:ml-40 pt-20 z-40 font-bold text-4xl sm:text-8xl text-white'>D E S T I N A S I</h1>
+          <h1 className='animate__animated animate__fadeInUp ml-10 sm:ml-40 sm:pt-6 z-40 font-bold text-4xl sm:text-8xl tracking-wider text-white'>M A L A N G</h1>
         </div>
-        <img className='animate__animated animate__fadeInDown absolute top-32 right-72 z-30 h-2/3 max-w-full' src={head2} alt="" />
-        <img className='animate__animated animate__fadeInRight absolute right-28 top-44 z-0 h-2/3 max-w-full' src={head3} alt="" />
-        <img className='animate__animated animate__fadeInUp absolute right-12 top-40 z-1 h-64 max-w-full' src={head1} alt="" />
+        <img className='animate__animated animate__fadeInDown absolute hidden sm:block sm:top-32 sm:right-72 z-30 sm:h-2/3 w-1/3 sm:w-96' src={head2} alt="" />
+        <img className='animate__animated animate__fadeInRight absolute right-0 sm:right-28 top-18 sm:top-44 z-0 h-1/3 sm:h-2/3 w-1/3 sm:max-w-full' src={head3} alt="" />
+        <img className='animate__animated animate__fadeInUp absolute right-12 top-36 sm:top-40 z-1 sm:h-64 w-1/3 sm:w-48' src={head1} alt="" />
       </section>
 
 

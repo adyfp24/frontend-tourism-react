@@ -139,7 +139,7 @@ const ParallaxSection = () => {
       />
       <div className="flex flex-col pt-36 w-full h-full  ">
         <h1 className="font-bold text-center text-custom-300  ">
-          <span className="text-4xl md:text-8xl lg:text-4xl absolute left-1/3 pl-52  font-bold parallax2" data-speed="0.8">
+          <span className=" text-4xl md:text-8xl lg:text-4xl absolute left-1/3 pl-52  font-bold parallax2" data-speed="0.8">
             WONDERFUL OF
           </span>
           <br />
