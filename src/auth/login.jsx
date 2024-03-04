@@ -46,7 +46,7 @@ const AuthCard = () => {
     <div className="bg-custom-300 flex items-center justify-center h-screen">
       <img src={bg2} className="absolute top-0 left-0" />
       <img src={bg1} className="absolute bottom-0 right-0  " />
-      <div id="box" className="bg-gray-200 w-4/5 rounded-2xl flex flex-col p-2 lg:p-4 shadow-lg z-10">
+      <div id="box" className="bg-gray-200 w-4/5 sm:w-3/5 rounded-2xl flex flex-col p-2 lg:p-4 shadow-lg z-10">
         <div id="select" className=" flex ">
           <p
             className={`cursor-pointer px-2 py-2 md:py-5 lg:px-4 text-3xl md:text-5xl font-bold ${
@@ -92,16 +92,16 @@ const LoginForm = () => {
         <button className="bg-custom-200 text-white py-4 px-4 rounded-xl mt-4 w-full hover:bg-custom-500 font-semibold lg:text-2xl">Masuk</button>
 
         <p className="text-center text-xl mt-3 ">atau</p>
-        <div className="sm:flex-col lg:flex gap-2 mt-5 ">
-          <button id="facebook" className="bg-blue-500 w-full rounded-xl flex text-white p-3 text-base
+        <div className="flex gap-2 mt-5 justify-center ">
+          <button id="facebook" className="bg-blue-500 w-1/3 sm:w-full rounded-xl flex text-white p-3 text-base
            text-start items-center justify-center gap-2">
-            <img src={fb} className="w-10 ml-2" />
-            <p>Masuk dengan facebook</p>
+            <img src={fb} className="w-15 sm:w-10 ml-2" />
+            <p className="sm:block hidden">Masuk dengan facebook</p>
           </button>
-          <button id="facebook" className="bg-slate-800 w-full rounded-xl flex text-white p-3 text-base
-           text-start items-center justify-center gap-2 mt-2">
-            <img src={google} className="w-10 mr-2" />
-            <p>Masuk dengan google</p>
+          <button id="facebook" className="bg-slate-800 w-1/3 sm:w-full rounded-xl flex text-white p-3 text-base
+           text-start items-center justify-center gap-2">
+            <img src={google} className="w-15 sm:w-10 " />
+            <p className="sm:block hidden">Masuk dengan google</p>
           </button>
         </div>
       </form>
@@ -129,14 +129,14 @@ const RegisterForm = () => {
         </div>
         <button className="bg-custom-200 text-white py-4 px-4 rounded-xl mt-4 w-full hover:bg-custom-500 font-semibold lg:text-2xl">Masuk</button>
         <p className="text-center text-xl mt-3 ">atau</p>
-        <div className="sm:flex-col sm:flex lg:flex gap-2 mt-5">
-          <button id="facebook" className="bg-blue-500 w-full rounded-xl flex text-white p-3 text-base text-start items-center justify-center gap-2">
-            <img src={fb} className="w-10" />
-            <p >Daftar dengan facebook</p>
+        <div className="flex gap-2 mt-5 justify-center">
+          <button id="facebook" className="bg-blue-500 w-1/3 sm:w-full rounded-xl flex text-white p-3 text-base text-start items-center justify-center gap-2">
+            <img src={fb} className="w-15 sm:w-10 ml-2" />
+            <p className="sm:block hidden">Daftar dengan facebook</p>
           </button>
-          <button id="facebook" className="bg-slate-800 w-full rounded-xl flex text-white p-3 text-base text-start items-center  justify-center gap-2 mt-2">
-            <img src={google} className="w-10 mr-2" />
-            <p >Daftar dengan google</p>
+          <button id="facebook" className="bg-slate-800 w-1/3 sm:w-full rounded-xl flex text-white p-3 text-base text-start items-center  justify-center gap-2 ">
+            <img src={google} className="w-15 sm:w-10" />
+            <p className="sm:block hidden">Daftar dengan google</p>
           </button>
         </div>
       </form>
