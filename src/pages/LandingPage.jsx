@@ -139,9 +139,9 @@ const ParallaxSection = () => {
         data-speed="0.1"
         alt="Ground"
       />
-      <div className="xl:flex xl:flex-col xl:pt-36 xl:w-full xl:h-full 2xl:flex 2xl:flex-col 2xl:pt-36 2xl:w-full 2xl:h-full">
-        <h1 className="font-bold  text-custom-300  ">
-          <span className="text-1xl absolute top-36 left-1/3 sm:text-3xl sm:absolute sm:left-12 sm:pl-52 md:text-4xl md:absolute md:left-24 md:pl-72 lg:text-4xl lg:absolute lg:left-1/4 lg:pl-36 xl:text-4xl xl:absolute xl:left-1/3 xl:pl-36 2xl:text-4xl 2xl:absolute 2xl:left-1/3 2xl:pl-52 font-bold parallax2" data-speed="0.8">
+      <div className="flex flex-col pt-36 w-full h-full  ">
+        <h1 className="font-bold text-center text-custom-300  ">
+          <span className=" text-4xl md:text-8xl lg:text-4xl absolute left-1/3 pl-52  font-bold parallax2" data-speed="0.8">
             WONDERFUL OF
           </span>
           <br />

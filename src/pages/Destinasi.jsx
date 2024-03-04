@@ -47,22 +47,22 @@ function Destinasi() {
     <div className='bg-custom-100 pt-24 h-full font-sans'>
       <Navbar />
 
-      <section id='head-section' className='flex max-w-full pb-72'>
-        <img className='animate__animated animate__fadeInLeft absolute top-24 z-10 max-h-full max-w-full' src={head4} alt="" />
+      <section id='head-section' className='flex max-w-full sm:pb-72'>
+        <img className='animate__animated animate__fadeInLeft absolute top-24 z-10 max-h-full w-1/3 sm:w-80' src={head4} alt="" />
         <div className='flex flex-col'>
-          <h1 className='animate__animated animate__fadeInDown ml-40 pt-20 z-40 font-bold text-8xl text-custom-300'>D E S T I N A S I</h1>
-          <h1 className='animate__animated animate__fadeInUp ml-40 pt-6 z-40 font-bold text-8xl tracking-wider text-custom-300'>M A L A N G</h1>
+          <h1 className='animate__animated animate__fadeInDown ml-10 sm:ml-40 pt-20 z-40 font-bold text-4xl sm:text-8xl text-white'>D E S T I N A S I</h1>
+          <h1 className='animate__animated animate__fadeInUp ml-10 sm:ml-40 sm:pt-6 z-40 font-bold text-4xl sm:text-8xl tracking-wider text-white'>M A L A N G</h1>
         </div>
-        <img className='animate__animated animate__fadeInDown absolute top-32 right-72 z-30 h-2/3 max-w-full' src={head2} alt="" />
-        <img className='animate__animated animate__fadeInRight absolute right-28 top-44 z-0 h-2/3 max-w-full' src={head3} alt="" />
-        <img className='animate__animated animate__fadeInUp absolute right-12 top-40 z-1 h-64 max-w-full' src={head1} alt="" />
+        <img className='animate__animated animate__fadeInDown absolute hidden sm:block sm:top-32 sm:right-72 z-30 sm:h-2/3 w-1/3 sm:w-96' src={head2} alt="" />
+        <img className='animate__animated animate__fadeInRight absolute right-0 sm:right-28 top-18 sm:top-44 z-0 h-1/3 sm:h-2/3 w-1/3 sm:max-w-full' src={head3} alt="" />
+        <img className='animate__animated animate__fadeInUp absolute right-12 top-36 sm:top-40 z-1 sm:h-64 w-1/3 sm:w-48' src={head1} alt="" />
       </section>
 
 
-      <section id='kunjungan' className='mx-16 mt-14 my-6 h-full font-sans'>
-        <h3 className='font-medium text-2xl'>Destinasi Favorit</h3>
+      <section id='kunjungan' className='mx-8 sm:mx-16 mt-28 sm:mt-14 my-6 h-full font-sans'>
+        <h3 className='font-medium text-xl sm:text-2xl'>Destinasi Favorit</h3>
         <div className='px-6'>
-          <Slider className='w-full py-12 mb-12 px-2' {...settings}>
+          <Slider className='w-full py-6 sm:py-12 mb-12 px-2' {...settings}>
             <div className=''>
               <img className='w-5/6' src={destinasi1} alt="" />
             </div>
@@ -75,10 +75,10 @@ function Destinasi() {
           </ Slider>
         </div>
       </section>
-      <section id='kunjungan' className='mx-16 mt-14 my-6 h-full font-sans'>
-        <h3 className='font-medium text-2xl'>Rekomendasi Akhir Pekan</h3>
+      <section id='kunjungan' className='mx-8 sm:mx-16 mt-14 my-6 h-full font-sans'>
+        <h3 className='font-medium text-xl sm:text-2xl'>Rekomendasi Akhir Pekan</h3>
         <div className='px-6'>
-          <Slider className='w-full py-12 mb-12 px-2' {...settings}>
+          <Slider className='w-full py-6 sm:py-12 mb-12 px-2' {...settings}>
             <div className=''>
               <img className='w-5/6' src={destinasi1} alt="" />
             </div>
@@ -91,17 +91,18 @@ function Destinasi() {
           </ Slider>
         </div>
       </section>
-      <iframe className='w-full h-screen' src='https://www.youtube.com/embed/fC2TW1mshxs?si=9jfWTZmcXU9otGgn'
+
+      <iframe className='w-full h-72 sm:h-screen' src='https://www.youtube.com/embed/fC2TW1mshxs?si=9jfWTZmcXU9otGgn'
         frameborder='0'
         allow='autoplay; encrypted-media'
         allowfullscreen
         title='video'
       />
 
-      <section id='destinasi' className='pt-20 px-16'>
-        <h1 className='font-medium text-xl text-start'>Galeri Kami</h1>
+      <section id='destinasi' className='pt-10 sm:pt-20 px-8 sm:px-16'>
+        <h1 className='font-medium text-xl sm:text-2xl text-start'>Destinasi Malang</h1>
         <div className=''>
-          <div className="grid w-full py-12 grid-cols-3 gap-10 mb-12">
+          <div className="grid w-full py-6 sm:py-12 grid-cols-3 gap-2 sm:gap-10 sm:mb-12">
             <div className="md:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
               <div className='flex flex-col'>
                 <div className='h-full w-full'>
@@ -128,7 +129,7 @@ function Destinasi() {
             <div className="md:col-span-1 row-span-3 bg-custom-300 shadow-md rounded-xl">
               <div className='flex flex-col'>
                 <div className='h-full w-full'>
-                  <img className='w-full' src={cobanRondo} alt="" />
+                  <img className='w-full h-full' src={cobanRondo} alt="" />
                 </div>
                 {/* <div className='mb-16 mx-4'>
                                     <h1 className='font-bold my-4'>Pendakian</h1>
@@ -167,8 +168,8 @@ function Destinasi() {
       </section>
 
 
-      <section id='tips' className='mt-14 my-6 mb-12 h-full font-sans'>
-        <h3 className='font-medium text-2xl px-16'>Tips berwisata ke Malang</h3>
+      <section id='tips' className=' sm:mt-14 my-6 mb-0 sm:mb-12 h-full font-sans'>
+        <h3 className='font-medium text-xl sm:text-2xl px-8 sm:px-16'>Tips berwisata ke Malang</h3>
         <div className=' py-6'>
           <img className='w-full' src={tipsMalang} alt="" />
         </div>

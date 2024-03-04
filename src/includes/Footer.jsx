@@ -11,7 +11,7 @@ function Footer() {
               <div className='font-bold hidden sm:block'>logo</div>
               <div>
                 <h1 className='font-bold pb-4'>Malang</h1>
-                <ul className='font-extralight text-xs'>
+                <ul className='font-extralight text-xs sm:text-base'>
                   <li className='pb-2'>Tentang</li>
                   <li className='pb-2'>Destinasi</li>
                   <li className='pb-2'>Blog</li>
@@ -20,7 +20,7 @@ function Footer() {
               </div>
               <div className='ml-11 sm:ml-0'>
                 <h1 className='font-bold pb-4'>Layanan</h1>
-                <ul className='font-extralight text-xs'>
+                <ul className='font-extralight text-xs sm:text-base'>
                   <li className='pb-2'>Kontak Kami</li>
                   <li className='pb-2'>Syarat dan Ketentuan</li> 
                   <li className='pb-2'>Keamanan Privasi</li>
@@ -42,7 +42,7 @@ function Footer() {
                 </ul>
               </div>
           </div>
-          <div className='w-full py-6 px-8 sm:px-16 font-thin sm:text-base text-sm text-white bg-emerald-950'>Copyright 2024 Malangkuy. All Rights Reserved</div>
+          <div className='w-full py-6 px-8 sm:px-16 font-thin sm:text-base text-xs text-white bg-emerald-950'>Copyright 2024 MalangKuy. All Rights Reserved</div>
       </footer>
     </div>
   )
