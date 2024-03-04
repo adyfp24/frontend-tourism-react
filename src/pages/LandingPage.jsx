@@ -280,13 +280,13 @@ function LandingPage() {
             </p>
           </div>
           <div className="bg-custom-100 shadow-xl rounded-xl flex justify-between">
-            <div className="justify-center w-full relative left-10 sm:left-20 flex flex-col">
+            <div className="justify-center w-full relative left-5 sm:left-20 flex flex-col">
               <p className="font-semibold lg:text-xl xl:text-5xl">Hai, Aku Jaka</p>
               <p className="mt-5 lg:text-xl xl:text-3xl">
                 Chatbot yang akan membantumu menjelajahi Malang. <br />
                 Tanyakan apapun padaku untuk mengetahui Malang lebih banyak
               </p>
-              <p className="bg-custom-200 w-fit text-white rounded-full text-xs sm:text-lg p-3 mt-10">
+              <p className="bg-custom-200 w-fit text-white rounded-full text-xs sm:text-lg p-3 mt-4 sm:mt-10">
                 Coba chatbot
               </p>
             </div>
@@ -295,27 +295,18 @@ function LandingPage() {
             </div>
           </div>
         </div>
-        <div
-          id="masmas"
-          className="flex flex-col mb-10"
-        >
-          <p className="text-white relative  sm:top-72 lg:top-96 sm:text-5xl lg:text-5xl xl:text-8xl sm:ml-20 lg:ml-40 font-semibold mb-10">
-            Tips Berkunjung ke <br />
-            Malang{" "}
-          </p>
-          <p className="text-white relative sm:top-72 lg:top-96 lg:text-xl xl:text-3xl sm:ml-20 lg:ml-40 font-semibold">
-            Khawatir untuk segala petualanganmu di Malang? Berikut tips yang
-            bisa <br /> kamu lakukan untuk mendapatkan pengalaman terbaik{" "}
-          </p>
-          <img src={masmas} className="pt-10" />
+        <section id='tips' className=' sm:mt-14 my-6 mb-0 sm:mb-12 h-full font-sans'>
+        <div className=' py-6'>
+          <img className='w-full' src={tipsMalang} alt="" />
         </div>
+      </section>
 
         <div id="card section" className="w-11/12">
           <div className="flex justify-between">
             <div className="text-white font-semibold text-2xl ">
               <p>Terbaru dari kami</p>
             </div>
-            <div className="flex w-10 h-10 gap-4 mr-16">
+            <div className=" hidden sm:flex w-10 h-10 gap-4 mr-16">
               <img src={left} alt="" />
               <img src={right} alt="" />
             </div>
@@ -332,7 +323,7 @@ function LandingPage() {
                   Sunset adalah saat dimana matahari akan segera tenggelam dan
                   justru banyak orang...
                 </p>
-                <div className="flex items-center gap-3 mt-4">
+                <div className="hidden sm:flex items-center gap-3 mt-4">
                   <p className="text-custom-200">Lebih lanjut</p>
                   <img src={arrow} className="w-6 h-4" />
                 </div>
@@ -349,7 +340,7 @@ function LandingPage() {
                   Malang memang tak pernah habis soal wisatanya. Kali ini,
                   Pemerintah Malang baru saja meresmikan...
                 </p>
-                <div className="flex items-center gap-3 mt-4">
+                <div className="hidden sm:flex items-center gap-3 mt-4">
                   <p className="text-custom-200">Lebih lanjut</p>
                   <img src={arrow} className="w-6 h-4" />
                 </div>
@@ -364,7 +355,7 @@ function LandingPage() {
                   Museum Angkut adalah salah satu destinasi wisata yang
                   menampilkan berbagai perkem...
                 </p>
-                <div className="flex items-center gap-3 mt-4">
+                <div className="hidden sm:flex items-center gap-3 mt-4">
                   <p className="text-custom-200">Lebih lanjut</p>
                   <img src={arrow} className="w-6 h-4" />
                 </div>
@@ -403,7 +394,7 @@ function LandingPage() {
               <div className="text-white font-semibold text-2xl ">
                 <p>Terbaru dari kami</p>
               </div>
-              <div className="flex w-10 h-10 gap-4 mr-16">
+              <div className="hidden sm:flex w-10 h-10 gap-4 mr-16">
                 <img src={left} alt="" />
                 <img src={right} alt="" />
               </div>
