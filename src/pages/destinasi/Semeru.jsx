@@ -26,6 +26,9 @@ import destinasi3 from '../../assets/images/des-park.png'
 import tipsMalang from '../../assets/images/tips-malang.png'
 import cuaca1 from '../../assets/images/destinasi/cuaca1.png'
 import cuaca2 from '../../assets/images/destinasi/cuaca2.png'
+import starKiri from '../../assets/images/destinasi/star-kiri.png'
+import starKanan from '../../assets/images/destinasi/star-kanan.png'
+import ppReview from '../../assets/images/destinasi/pp-review.png'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
@@ -72,7 +75,7 @@ function Semeru() {
                     </div>
                 </div>
                 <div className='flex justify-end w-full sm:w-1/2 sm:px-0'>
-                    <img className='' src={semeruImg} alt="" />
+                    <img className='animate__animated animate__fadeInRight' src={semeruImg} alt="" />
                 </div>
             </section>
 
@@ -273,7 +276,80 @@ function Semeru() {
 
             <section id='review' className='mx-8 sm:mx-16 sm:my-6 sm:pt-6 h-full font-sans'>
                 <h3 className='font-medium text-xl sm:text-2xl'>Review </h3>
-                <h3 className='font-thin text-sm mt-2'>ini isi review susah</h3>
+                <div className='flex flex-col w-full h-full'>
+                    <div className='flex justify-between py-6'>
+                        <div className=''>
+                            <div className=''>
+                                <div className='flex items-center mb-1 sm:mb-3'>
+                                    <h1 className='text-xl sm:text-2xl  font-bold'>4,9</h1>
+                                    <h4 className='text-xs sm:text-base font-thin ml-2 sm:ml-6'>854 Reviews</h4>
+                                </div>
+                                <img className='w-2/3 sm:w-full' src={starKiri} alt="" />
+                            </div>
+                        </div>
+                        <div className=''>
+                            <div className='flex justify-end sm:'>
+                                <img className='w-2/3 sm:w-full h-full' src={starKanan} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='flex w-full flex-col'>
+                        <div className='w-full h-full sm:h-36 flex mb-4'>
+                            <div className='flex w-4/12 h-full'>
+                                <div >
+                                    <img className='' src={ppReview} alt="" />
+                                </div>
+                                <div className='flex flex-col pl-1 sm:pl-0 sm:mt-2'>
+                                    <img className='w-20' src={starKiri} alt="" />
+                                    <h3 className='text-sm font-medium'>Yurasara</h3>
+                                    <h6 className='text-xs font-thin'>2 Maret 2023</h6>
+                                </div>
+                            </div>
+                            <div className='flex flex-col w-8/12 ml-4  h-full'>
+                                <h3 className='font-semibold text-sm sm:text-lg'>Happy bangettt</h3>
+                                <p className='text-xs sm:text-base font-thin text-justify'>Baguss bangett. Air terjunnya cakepp, terus enak banget ada fun tubingnya, seruu bangett pokoknya kalian kalo ke malang harus kesini, oiya datengnya agak pagian enak biar ga terlalu rame dan lebih sejuk</p>
+                            </div>
+
+                        </div>
+                        <div className='w-full h-0.5 mb-4 bg-gray-300'></div>
+                        <div className='w-full h-full sm:h-36 flex mb-4'>
+                            <div className='flex w-4/12 h-full'>
+                                <div >
+                                    <img className='' src={ppReview} alt="" />
+                                </div>
+                                <div className='flex flex-col pl-1 sm:pl-0 sm:mt-2'>
+                                    <img className='w-20' src={starKiri} alt="" />
+                                    <h3 className='text-sm font-medium'>Yurasara</h3>
+                                    <h6 className='text-xs font-thin'>2 Maret 2023</h6>
+                                </div>
+                            </div>
+                            <div className='flex flex-col w-8/12 ml-4  h-full'>
+                                <h3 className='font-semibold text-sm sm:text-lg'>Happy bangettt</h3>
+                                <p className='text-xs sm:text-base font-thin text-justify'>Baguss bangett. Air terjunnya cakepp, terus enak banget ada fun tubingnya, seruu bangett pokoknya kalian kalo ke malang harus kesini, oiya datengnya agak pagian enak biar ga terlalu rame dan lebih sejuk</p>
+                            </div>
+
+                        </div>
+                        <div className='w-full h-0.5 mb-4 bg-gray-300'></div>
+                        <div className='w-full h-full sm:h-36 flex mb-4'>
+                            <div className='flex w-4/12 h-full'>
+                                <div>
+                                    <img className='' src={ppReview} alt="" />
+                                </div>
+                                <div className='flex flex-col pl-1 sm:pl-0 sm:mt-2'>
+                                    <img className='w-20' src={starKiri} alt="" />
+                                    <h3 className='text-sm font-medium'>Yurasara</h3>
+                                    <h6 className='text-xs font-thin'>2 Maret 2023</h6>
+                                </div>
+                            </div>
+                            <div className='flex flex-col w-8/12 ml-4  h-full'>
+                                <h3 className='font-semibold text-sm sm:text-lg'>Happy bangettt</h3>
+                                <p className='text-xs sm:text-base font-thin text-justify'>Baguss bangett. Air terjunnya cakepp, terus enak banget ada fun tubingnya, seruu bangett pokoknya kalian kalo ke malang harus kesini, oiya datengnya agak pagian enak biar ga terlalu rame dan lebih sejuk</p>
+                            </div>
+
+                        </div>
+                        <div className='w-full h-0.5 mb-4 bg-gray-300'></div>
+                    </div>
+                </div>
                 <div className='flex justify-around items-center w-full h-16 sm:h-24 rounded-full mt-4 bg-custom-400'>
                     <div className='sm:w-1/12'>
                         <img className='mx-2 sm:mx-6 h-10 w-10 sm:w-3/6 hover:cursor-pointer' src={camera} alt="" />

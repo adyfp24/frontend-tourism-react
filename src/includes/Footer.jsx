@@ -13,7 +13,7 @@ function Footer() {
           <img className='w-20 sm:w-24 fixed right-4 sm:right-8 bottom-4 sm:bottom-8 hover:scale-110' src={jaka} alt="" />
         </Link>
         <div className='text-white h-72 px-8 sm:px-16 pt-14 flex justify-between w-full bg-custom-500'>
-          <div className='font-bold hidden sm:block'>logo</div>
+          <div className='font-bold hidden sm:block'>MalangKuy</div>
           <div>
             <h1 className='font-bold pb-4'>Malang</h1>
             <ul className='font-extralight text-xs sm:text-base'>
