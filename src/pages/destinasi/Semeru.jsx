@@ -24,6 +24,8 @@ import destinasi1 from '../../assets/images/des-tugu.png'
 import destinasi2 from '../../assets/images/des-angkut.png'
 import destinasi3 from '../../assets/images/des-park.png'
 import tipsMalang from '../../assets/images/tips-malang.png'
+import cuaca1 from '../../assets/images/destinasi/cuaca1.png'
+import cuaca2 from '../../assets/images/destinasi/cuaca2.png'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
@@ -234,11 +236,11 @@ function Semeru() {
                         <img src={mapSemeru} alt="" />
                     </div>
                     <div className='flex flex-col w-1/3'>
-                        <div className='h-1/2 bg-custom-300 rounded-lg mb-4 ml-4'>
-                            Cuaca
+                        <div className='h-1/2 bg-custom-300 rounded-lg sm:mb-4 sm:ml-4'>
+                            <img src={cuaca1} alt="" />
                         </div>
-                        <div className='h-1/2 bg-custom-300 rounded-lg mt-4 ml-4'>
-                            Jam Operasional
+                        <div className='h-1/2 bg-custom-300 rounded-lg mt-2 sm:mt-4 sm:ml-4'>
+                            <img src={cuaca2} alt="" />
                         </div>
                     </div>
                 </div>
@@ -254,7 +256,7 @@ function Semeru() {
 
             <section id='umkm' className='mx-8 sm:mx-16 my-6 h-full font-sans'>
                 <h3 className='font-medium text-xl  sm:text-2xl'>Support UMKM sekitar </h3>
-                <div className='px-6'>
+                <div className='px-2 sm:px-6'>
                     <Slider className='w-full py-12 sm:mb-12 px-2' {...settings}>
                         <div className=''>
                             <img className='w-5/6' src={reviewPutu} alt="" />
@@ -272,29 +274,29 @@ function Semeru() {
             <section id='review' className='mx-8 sm:mx-16 sm:my-6 sm:pt-6 h-full font-sans'>
                 <h3 className='font-medium text-xl sm:text-2xl'>Review </h3>
                 <h3 className='font-thin text-sm mt-2'>ini isi review susah</h3>
-                <div className='flex justify-around items-center w-full h-24 rounded-full mt-4 bg-custom-400'>
-                    <div className='w-1/12'>
-                        <img className='mx-6 w-3/6 hover:cursor-pointer' src={camera} alt="" />
+                <div className='flex justify-around items-center w-full h-16 sm:h-24 rounded-full mt-4 bg-custom-400'>
+                    <div className='sm:w-1/12'>
+                        <img className='mx-2 sm:mx-6 h-10 w-10 sm:w-3/6 hover:cursor-pointer' src={camera} alt="" />
                     </div>
-                    <div className='text-gray-400 font-light text-2xl z-10 w-7/12'>
-                        <input type="text" id="name" placeholder='Bagikan pengalamanmu ...' name="name" className='px-8 h-24 bg-custom-400 w-full' />
+                    <div className='text-gray-400 font-light text-xs sm:text-2xl z-10 w-8/12 ml-4 sm:ml-0 sm:w-7/12'>
+                        <input type="text" id="name" placeholder='Bagikan pengalamanmu' name="name" className='sm:px-8 h-16 sm:h-24 bg-custom-400 w-full' />
                     </div>
-                    <div className='flex w-4/12 items-center'>
-                        <div className='flex h-full items-center'>
+                    <div className='flex w-3/12 sm:w-4/12 items-center'>
+                        <div className='sm:flex h-full hidden items-center'>
                             <img className='hover:cursor-pointer' src={star} alt="" />
                             <img className='hover:cursor-pointer' src={star} alt="" />
                             <img className='hover:cursor-pointer' src={star} alt="" />
                             <img className='hover:cursor-pointer' src={star} alt="" />
                             <img className='hover:cursor-pointer' src={star} alt="" />
                         </div>
-                        <button className='sm:ml-12 sm:px-12 py-2 mx-5 bg-custom-200 hover:bg-green-50 rounded-3xl font-semibold text-lg text-white hover:text-black'>kirim</button>
+                        <button className='sm:ml-12 sm:px-12 px-3 py-1 sm:py-2 mr-4 sm:mx-5 bg-custom-200 hover:bg-green-50 rounded-3xl font-semibold text-base sm:text-lg text-white hover:text-black'>kirim</button>
                     </div>
                 </div>
             </section>
 
             <section id='kunjungan' className='mx-8 sm:mx-16 mt-14 my-6 h-full font-sans'>
                 <h3 className='font-medium text-xl sm:text-2xl'>Kunjungi destinasi lainnya </h3>
-                <div className='px-6'>
+                <div className='px-2 sm:px-6'>
                     <Slider className='w-full py-12 mb-12 ' {...settings}>
                         <div className=''>
                             <img className='w-5/6' src={destinasi1} alt="" />

@@ -61,7 +61,7 @@ function Destinasi() {
 
       <section id='kunjungan' className='mx-8 sm:mx-16 mt-28 sm:mt-14 my-6 h-full font-sans'>
         <h3 className='font-medium text-xl sm:text-2xl'>Destinasi Favorit</h3>
-        <div className='px-6'>
+        <div className='px-1 sm:px-6'>
           <Slider className='w-full py-6 sm:py-12 mb-12 px-2' {...settings}>
             <div className=''>
               <img className='w-5/6' src={destinasi1} alt="" />
@@ -77,7 +77,7 @@ function Destinasi() {
       </section>
       <section id='kunjungan' className='mx-8 sm:mx-16 mt-14 my-6 h-full font-sans'>
         <h3 className='font-medium text-xl sm:text-2xl'>Rekomendasi Akhir Pekan</h3>
-        <div className='px-6'>
+        <div className='px-1 sm:px-6'>
           <Slider className='w-full py-6 sm:py-12 mb-12 px-2' {...settings}>
             <div className=''>
               <img className='w-5/6' src={destinasi1} alt="" />

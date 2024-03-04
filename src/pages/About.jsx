@@ -39,49 +39,49 @@ function About() {
             <section id='tentang-malang' className='pt-20 sm:pt-36 px-6 sm:px-16'>
                 <div className='flex flex-col sm:flex-row w-full bg-custom-300 mb-0 sm:mb-20 rounded-3xl'>
                     <div className='flex flex-col w-full sm:w-1/2 h-full p-4'>
-                        <h1 className='font-medium text-xl sm:text-2xl py-2'>Tentang Malang</h1>
-                        <p className='font-extralight text-sm sm:text-base'>Kota Malang merupakan kota terbesar kedua di Jawa Timur setelah Surabaya. Bersama dengan Kabupaten Malang dan Kota Batu, Kota Malang merupakan bagian dari kesatuan wilayah yang dikenal dengan Malang Raya.</p>
-                        <h1 className='font-medium text-xl sm:text-2xl py-2'>Kenapa Malang?</h1>
+                        <h1 className='text-custom-500 font-medium text-xl sm:text-2xl py-2'>Tentang Malang</h1>
+                        <p className='text-white font-extralight text-sm sm:text-base'>Kota Malang merupakan kota terbesar kedua di Jawa Timur setelah Surabaya. Bersama dengan Kabupaten Malang dan Kota Batu, Kota Malang merupakan bagian dari kesatuan wilayah yang dikenal dengan Malang Raya.</p>
+                        <h1 className='text-custom-500 font-medium text-xl sm:text-2xl py-2'>Kenapa Malang?</h1>
 
                         <div className='flex flex-col sm:flex-row w-full'>
                             <div className=''>
-                                <h3 className='py-2 font-semibold'>- Destinasi bervariasi</h3>
-                                <p className='font-extralight text-sm sm:text-base'>Malang terus mengakomodasi berbagai destinasi tak hanya tempat wisata, tapi budaya, kuliner, UMKM, dan lain-lain.</p>
+                                <h3 className='text-custom-500  py-2 font-semibold'>- Destinasi bervariasi</h3>
+                                <p className='text-white font-extralight text-sm sm:text-base'>Malang terus mengakomodasi berbagai destinasi tak hanya tempat wisata, tapi budaya, kuliner, UMKM, dan lain-lain.</p>
                             </div>
 
                             <div className='sm:ml-5'>
-                                <h3 className='py-2 font-semibold'>- Kemudahan transportasi</h3>
-                                <p className='font-extralight text-sm sm:text-base'>Kemajuan transportasi di Malang akan memudahkan mobilitas perjalananmu saat di Malang.</p>
+                                <h3 className='text-custom-500  py-2 font-semibold'>- Kemudahan transportasi</h3>
+                                <p className='font-extralight text-white text-sm sm:text-base'>Kemajuan transportasi di Malang akan memudahkan mobilitas perjalananmu saat di Malang.</p>
                             </div>
                         </div>
 
                         <div className='flex flex-col sm:flex-row w-full'>
                             <div className=''>
-                                <h3 className='py-2 font-semibold'>- Destinasi bervariasi</h3>
-                                <p className='font-extralight text-sm sm:text-base'>Malang terus mengakomodasi berbagai destinasi tak hanya tempat wisata, tapi budaya, kuliner, UMKM, dan lain-lain.</p>
+                                <h3 className='text-custom-500  py-2 font-semibold'>- Destinasi bervariasi</h3>
+                                <p className='font-extralight text-white text-sm sm:text-base'>Malang terus mengakomodasi berbagai destinasi tak hanya tempat wisata, tapi budaya, kuliner, UMKM, dan lain-lain.</p>
                             </div>
 
                             <div className='sm:ml-5'>
-                                <h3 className='py-2 font-semibold'>- Kemudahan transportasi</h3>
-                                <p className='font-extralight text-sm sm:text-base'>Kemajuan transportasi di Malang akan memudahkan mobilitas perjalananmu saat di Malang.</p>
+                                <h3 className='text-custom-500  py-2 font-semibold'>- Kemudahan transportasi</h3>
+                                <p className='text-white font-extralight text-sm sm:text-base'>Kemajuan transportasi di Malang akan memudahkan mobilitas perjalananmu saat di Malang.</p>
                             </div>
                         </div>
                     </div>
                     <div className='flex flex-col w-full sm:w-1/2 h-full '>
                         <div className='flex w-full h-1/2 justify-center items-center'>
                             <div className='w-1/2 m-3 sm:m-4'>
-                                <img className='rounded-2xl max-h-full' src={about1} alt="" />
+                                <img className=' max-h-full' src={about1} alt="" />
                             </div>
                             <div className='w-1/2 m-3 sm:m-4'>
-                                <img className='rounded-2xl max-h-full' src={about2} alt="" />
+                                <img className=' max-h-full' src={about2} alt="" />
                             </div>
                         </div>
                         <div className='flex w-full h-1/2 justify-center items-center'>
                             <div className='w-full  m-3 sm:m-4'>
-                                <img className='rounded-2xl max-h-full' src={about3} alt="" />
+                                <img className=' max-h-full' src={about3} alt="" />
                             </div>
                             <div className='w-full  m-3 sm:m-4'>
-                                <img className='rounded-2xl max-h-full' src={about4} alt="" />
+                                <img className=' max-h-full' src={about4} alt="" />
                             </div>
                         </div>
                     </div>
