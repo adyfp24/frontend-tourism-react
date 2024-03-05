@@ -29,6 +29,8 @@ import cuaca2 from '../../assets/images/destinasi/cuaca2.png'
 import starKiri from '../../assets/images/destinasi/star-kiri.png'
 import starKanan from '../../assets/images/destinasi/star-kanan.png'
 import ppReview from '../../assets/images/destinasi/pp-review.png'
+import pp2 from '../../assets/images/destinasi/pp2.png'
+import pp3 from '../../assets/images/destinasi/pp3.png'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
@@ -70,7 +72,7 @@ function Semeru() {
                     </div>
                     <div className='font-thin text-xl ml-1 mt-4 text-justify sm:mt-10'>
                         <p className=''>
-                            Gunung Semeru 
+                        Gunung Semeru adalah salah satu gunung api yang masih aktif di Indonesia. Gunung yang memiliki ketinggian 2.392 meter di atas permukaan laut ini merupakan destinasi andalan Jawa Timur. Gunung Semeru berdiri gagah dikelilingi kaldera atau lautan pasir seluas 10 kilometer persegi.
                         </p>
                     </div>
                 </div>
@@ -306,8 +308,8 @@ function Semeru() {
                                 </div>
                             </div>
                             <div className='flex flex-col w-8/12 ml-4  h-full'>
-                                <h3 className='font-semibold text-sm sm:text-lg'>Happy bangettt</h3>
-                                <p className='text-xs sm:text-base font-thin text-justify'>Baguss bangett. Air terjunnya cakepp, terus enak banget ada fun tubingnya, seruu bangett pokoknya kalian kalo ke malang harus kesini, oiya datengnya agak pagian enak biar ga terlalu rame dan lebih sejuk</p>
+                                <h3 className='font-semibold text-sm sm:text-lg'>Bagus bangettt</h3>
+                                <p className='text-xs sm:text-base font-thin text-justify'>Baguss bangett. Ga nyangka ternyata sebagus itu apalagi sunrisenya. btw ini pendakian pertamaku dan ya lumayan capek tapi sebanding banget sama view yang bakalan kamu dapet. Buat yang baru pertama dai kaya aku pastiin kalian mendaki sama orang yang udah berpengalaman yaa</p>
                             </div>
 
                         </div>
@@ -315,17 +317,17 @@ function Semeru() {
                         <div className='w-full h-full sm:h-36 flex mb-4'>
                             <div className='flex w-4/12 h-full'>
                                 <div >
-                                    <img className='' src={ppReview} alt="" />
+                                    <img className='' src={pp2} alt="" />
                                 </div>
                                 <div className='flex flex-col pl-1 sm:pl-0 sm:mt-2'>
                                     <img className='w-20' src={starKiri} alt="" />
-                                    <h3 className='text-sm font-medium'>Yurasara</h3>
-                                    <h6 className='text-xs font-thin'>2 Maret 2023</h6>
+                                    <h3 className='text-sm font-medium'>Sherly</h3>
+                                    <h6 className='text-xs font-thin'>1 Januari 2023</h6>
                                 </div>
                             </div>
                             <div className='flex flex-col w-8/12 ml-4  h-full'>
-                                <h3 className='font-semibold text-sm sm:text-lg'>Happy bangettt</h3>
-                                <p className='text-xs sm:text-base font-thin text-justify'>Baguss bangett. Air terjunnya cakepp, terus enak banget ada fun tubingnya, seruu bangett pokoknya kalian kalo ke malang harus kesini, oiya datengnya agak pagian enak biar ga terlalu rame dan lebih sejuk</p>
+                                <h3 className='font-semibold text-sm sm:text-lg'>Sunrise Gokil</h3>
+                                <p className='text-xs sm:text-base font-thin text-justify'>Gunung semeru emang udah terkenal bagus banget. Pas kesini keadaan agak mendung tapi alhamdulillah aman sampai puncak sampai turunnya juga aman, dari beberapa gunung yang pernah aku daki, rute gunung semeru ini yang termasuk enak.</p>
                             </div>
 
                         </div>
@@ -333,17 +335,17 @@ function Semeru() {
                         <div className='w-full h-full sm:h-36 flex mb-4'>
                             <div className='flex w-4/12 h-full'>
                                 <div>
-                                    <img className='' src={ppReview} alt="" />
+                                    <img className='' src={pp3} alt="" />
                                 </div>
                                 <div className='flex flex-col pl-1 sm:pl-0 sm:mt-2'>
                                     <img className='w-20' src={starKiri} alt="" />
-                                    <h3 className='text-sm font-medium'>Yurasara</h3>
-                                    <h6 className='text-xs font-thin'>2 Maret 2023</h6>
+                                    <h3 className='text-sm font-medium'>Daniel</h3>
+                                    <h6 className='text-xs font-thin'>12 April 2023</h6>
                                 </div>
                             </div>
                             <div className='flex flex-col w-8/12 ml-4  h-full'>
-                                <h3 className='font-semibold text-sm sm:text-lg'>Happy bangettt</h3>
-                                <p className='text-xs sm:text-base font-thin text-justify'>Baguss bangett. Air terjunnya cakepp, terus enak banget ada fun tubingnya, seruu bangett pokoknya kalian kalo ke malang harus kesini, oiya datengnya agak pagian enak biar ga terlalu rame dan lebih sejuk</p>
+                                <h3 className='font-semibold text-sm sm:text-lg'>OMG, Amazing</h3>
+                                <p className='text-xs sm:text-base font-thin text-justify'>Bagusss, tapi sayang banget ga sampe puncak soalnya aku gakuat lagi sampe kakiku gemeter, mungkin gara-gara aku jarang olahraga tapi sekalinya muncuk langsung dipaksain ke gunung semeru. tapi so far meski ga sampe puncak, view nya baguss bangett apalagi pas di ranu kumbolo</p>
                             </div>
 
                         </div>
