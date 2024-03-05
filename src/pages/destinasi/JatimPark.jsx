@@ -89,57 +89,45 @@ function Jatimpark() {
                   <div className="sm:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
                       <div className='flex flex-col'>
                           <div className='h-full sm:h-72 w-full'>
-                              <img className='w-full max-h-full' src={teater4d} alt="" />
-                          </div>
-                          <div className='mb-16 mx-4 hidden sm:block'>
-                              <h1 className='font-bold my-4'>Teater 4d</h1>
-                              <p className='font-thin'>Mengusung inovasi yang berbeda, Jatim Park menghadirkan teater 4D dengan sensani menonton yang berbeda</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="sm:col-span-1 bg-custom-300 shadow-md rounded-xl">
-                      <div className='flex flex-col'>
-                          <div className='h-full sm:h-40 w-full'>
                               <img className='w-full max-h-full' src={adrenalin} alt="" />
                           </div>
-                          <div className='mb-6 mx-4 hidden sm:block'>
+                          <div className='mb-16 mx-4 hidden sm:block'>
                               <h1 className='font-bold my-4'>Wahana Adrenalin</h1>
                               <p className='font-thin'>Wahana permainan di Jatim Park tidak perlu diragukan variasinya, lebih dari 50 permainan bisa kamu coba</p>
                           </div>
                       </div>
                   </div>
-
-                  <div className="sm:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
-                      <div className='flex flex-col'>
-                          <div className='h-full sm:h-72 w-full'>
-                              <img className='w-full max-h-full' src={dino} alt="" />
-                          </div>
-
-                          <div className='mb-16 mx-4 hidden sm:block'>
-                              <h1 className='font-bold my-4'>Museum Dino</h1>
-                              <p className='font-thin'>Tak lengkap jika belum berkunjung ke Museum Dino yang berisi berbagai replika spesies dinosaurus yang uniknya bisa bergerak dan mengeluarkan suara</p>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div className="sm:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
-                      <div className='flex flex-col'>
-                          <div className='h-full sm:h-72 w-full'>
-                              <img className='w-full max-h-full' src={galeri} alt="" />
-                          </div>
-                          <div className='mb-16 mx-4 hidden sm:block'>
-                              <h1 className='font-bold my-4'>Galeri Etnik Nusantara</h1>
-                              <p className='font-thin'>Galeri etnik nusantara mengenalkan berbagai suku, adat, baju khas, serta keunikan lainnya di Indonesia</p>
-                          </div>
-                      </div>
-                  </div>
-
                   <div className="sm:col-span-1 bg-custom-300 shadow-md rounded-xl">
                       <div className='flex flex-col'>
                           <div className='h-full sm:h-40 w-full'>
-                              <img className='w-full max-h-full' src={tematik} alt="" />
+                              <img className='w-full max-h-full' src={teater4d} alt="" />
                           </div>
                           <div className='mb-6 mx-4 hidden sm:block'>
+                              <h1 className='font-bold my-4'>Teater 4D</h1>
+                              <p className='font-thin'>Mengusung inovasi yang berbeda, Jatim Park menghadirkan teater 4D dengan sensani menonton yang berbeda </p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div className="sm:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
+                      <div className='flex flex-col'>
+                          <div className='h-full sm:h-72 w-full'>
+                              <img className='w-full max-h-full' src={zoo} alt="" />
+                          </div>
+
+                          <div className='mb-16 mx-4 hidden sm:block'>
+                              <h1 className='font-bold my-4'>Batu Secret Zoo</h1>
+                              <p className='font-thin'>Batu Secret Zoo adalah salah satu bagian yang banyak dikunjungi oleh wisatawan. Berbagai hewan mulai dari hewan darat, air, maupun keduanya bisa kamu kunjungi di Batu Secret Zoo</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div className="sm:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
+                      <div className='flex flex-col'>
+                          <div className='h-full sm:h-72 w-full'>
+                              <img className='w-full max-h-full' src={tematik} alt="" />
+                          </div>
+                          <div className='mb-16 mx-4 hidden sm:block'>
                               <h1 className='font-bold my-4'>Taman Tematik</h1>
                               <p className='font-thin'>Jatim Park menghadirkan taman tematik yang beragam, seperti taman air, taman kupu-kupu, dan masih banyak lagi yang sangat cocok untuk menambah wawasan</p>
                           </div>
@@ -147,13 +135,25 @@ function Jatimpark() {
                   </div>
 
                   <div className="sm:col-span-1 bg-custom-300 shadow-md rounded-xl">
-                      <div className='flex flex-col '>
+                      <div className='flex flex-col'>
                           <div className='h-full sm:h-40 w-full'>
-                              <img className='w-full max-h-full' src={zoo} alt="" />
+                              <img className='w-full max-h-full' src={galeri} alt="" />
                           </div>
                           <div className='mb-6 mx-4 hidden sm:block'>
-                              <h1 className='font-bold my-4'>Batu Secret Zoo</h1>
-                              <p className='font-thin'>Batu Secret Zoo adalah salah satu bagian yang banyak dikunjungi oleh wisatawan. Berbagai hewan mulai dari hewan darat, air, maupun keduanya bisa kamu kunjungi di Batu Secret Zoo</p>
+                              <h1 className='font-bold my-4'>Galeri Etnik Nusantara</h1>
+                              <p className='font-thin'>Galeri etnik nusantara mengenalkan berbagai suku, adat, baju khas, serta keunikan lainnya di Indonesia</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div className="sm:col-span-1 bg-custom-300 shadow-md rounded-xl">
+                      <div className='flex flex-col '>
+                          <div className='h-full sm:h-40 w-full'>
+                              <img className='w-full max-h-full' src={dino} alt="" />
+                          </div>
+                          <div className='mb-6 mx-4 hidden sm:block'>
+                              <h1 className='font-bold my-4'>Museum Dino</h1>
+                              <p className='font-thin'>Tak lengkap jika belum berkunjung ke Museum Dino yang berisi berbagai replika spesies dinosaurus yang uniknya bisa bergerak dan mengeluarkan suara</p>
                           </div>
                       </div>
                   </div>
@@ -166,34 +166,22 @@ function Jatimpark() {
                   <div className="sm:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
                       <div className='flex flex-col'>
                           <div className='h-full sm:h-72 w-full'>
-                              <img className='w-full max-h-full' src={coaster} alt="" />
-                          </div>
-                          <div className='mb-16 mx-4 hidden sm:block'>
-                              <h1 className='font-bold my-4'>Menikmati Permainan</h1>
-                              <p className='font-thin'>Dengan total permainan lebih dari 50 tentu saja menikmati permainan adalah hal yang mengasyikkan </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="sm:col-span-1 bg-custom-300 shadow-md rounded-xl">
-                      <div className='flex flex-col'>
-                          <div className='h-full sm:h-40 w-full'>
                               <img className='w-full max-h-full' src={museum} alt="" />
                           </div>
-                          <div className='mb-6 mx-4 hidden sm:block'>
+                          <div className='mb-16 mx-4 hidden sm:block'>
                               <h1 className='font-bold my-4'>Kunjungi Museum</h1>
                               <p className='font-thin'>Dengan bervariasinya museum di Jatim Park, sayang bila kamu tak mengunjunginya. Mengenal lebih dalam tentang berbagai hal di dunia dengan cara yang menyenangkan</p>
                           </div>
                       </div>
                   </div>
-
-                  <div className="sm:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
+                  <div className="sm:col-span-1 bg-custom-300 shadow-md rounded-xl">
                       <div className='flex flex-col'>
-                          <div className='h-full sm:h-72 w-full'>
-                              <img className='w-full max-h-full' src={makanhewan} alt="" />
+                          <div className='h-full sm:h-40 w-full'>
+                              <img className='w-full max-h-full' src={coaster} alt="" />
                           </div>
-                          <div className='mb-16 mx-4 hidden sm:block'>
-                              <h1 className='font-bold my-4'>Memberi Makan Hewan</h1>
-                              <p className='font-thin'>Memberi makan hewan adalah salah satu aktivitas yang bisa kamu lakukan ketika mengunjungi Batu Secret Zoo yang tentunya hal ini sudah diawasi oleh petugas </p>
+                          <div className='mb-6 mx-4 hidden sm:block'>
+                              <h1 className='font-bold my-4'>Menikmati Permainan</h1>
+                              <p className='font-thin'>Dengan total permainan lebih dari 50 tentu saja menikmati permainan adalah hal yang mengasyikkan </p>
                           </div>
                       </div>
                   </div>
@@ -201,11 +189,23 @@ function Jatimpark() {
                   <div className="sm:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
                       <div className='flex flex-col'>
                           <div className='h-full sm:h-72 w-full'>
-                              <img className='w-full max-h-full' src={replika} alt="" />
+                              <img className='w-full max-h-full' src={atraksi} alt="" />
                           </div>
                           <div className='mb-16 mx-4 hidden sm:block'>
-                              <h1 className='font-bold my-4'>Kunjungi Replikas Dinosaurus</h1>
-                              <p className='font-thin'>Mempelajari tentang sejarah dinosaurus, mengenal lebih dalam berbagai spesiesnya sangat bagus untuk menambah pengetahuan</p>
+                              <h1 className='font-bold my-4'>Menonton Atraksi Hewan</h1>
+                              <p className='font-thin'>Di sini kamu akan dihibur dengan atraksi dan tingkah lucu hewan-hewan yang ada di Batu Secret Zoo</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div className="sm:col-span-1 row-span-2 bg-custom-300 shadow-md rounded-xl">
+                      <div className='flex flex-col'>
+                          <div className='h-full sm:h-72 w-full'>
+                              <img className='w-full max-h-full' src={outbond} alt="" />
+                          </div>
+                          <div className='mb-16 mx-4 hidden sm:block'>
+                              <h1 className='font-bold my-4'>Water Outbond</h1>
+                              <p className='font-thin'>Tak kalah asyik dengan permainan adrenalin yang disediakan, Jatim Park melengkapinya dengan menambahkan permainan air yang tentunya seru</p>
                           </div>
                       </div>
                   </div>
@@ -213,11 +213,11 @@ function Jatimpark() {
                   <div className="sm:col-span-1 bg-custom-300 shadow-md rounded-xl">
                       <div className='flex flex-col'>
                           <div className='h-full sm:h-40 w-full'>
-                              <img className='w-full max-h-full' src={outbond} alt="" />
+                              <img className='w-full max-h-full' src={replika} alt="" />
                           </div>
                           <div className='mb-6 mx-4 hidden sm:block'>
-                              <h1 className='font-bold my-4'>Water Outbond</h1>
-                              <p className='font-thin'>Tak kalah asyik dengan permainan adrenalin yang disediakan, Jatim Park melengkapinya dengan menambahkan permainan air yang tentunya seru</p>
+                              <h1 className='font-bold my-4'>Kunjungi Replikas Dinosaurus</h1>
+                              <p className='font-thin'>Mempelajari tentang sejarah dinosaurus, mengenal lebih dalam berbagai spesiesnya sangat bagus untuk menambah pengetahuan</p>
                           </div>
                       </div>
                   </div>
@@ -225,11 +225,11 @@ function Jatimpark() {
                   <div className="sm:col-span-1 shadow-md rounded-xl bg-custom-300">
                       <div className='flex flex-col'>
                           <div className='h-full sm:h-40 w-full'>
-                              <img className='w-full max-h-full' src={atraksi} alt="" />
+                              <img className='w-full max-h-full' src={makanhewan} alt="" />
                           </div>
                           <div className='mb-6 mx-4 hidden sm:block'>
-                              <h1 className='font-bold py-4'>Menonton Atraksi Hewan</h1>
-                              <p className='font-thin'>Di sini kamu akan dihibur dengan atraksi dan tingkah lucu hewan-hewan yang ada di Batu Secret Zoo</p>
+                              <h1 className='font-bold py-4'>Memberi Makan Hewan</h1>
+                              <p className='font-thin'>Memberi makan hewan adalah salah satu aktivitas yang bisa kamu lakukan ketika mengunjungi Batu Secret Zoo yang tentunya hal ini sudah diawasi oleh petugas </p>
                           </div>
                       </div>
                   </div>

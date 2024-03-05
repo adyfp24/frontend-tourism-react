@@ -301,7 +301,7 @@ function LandingPage() {
                 alt=""
                 className="w-full transition-transform duration-500 transform group-hover:brightness-75"
               />
-              <div className="absolute top-16 left-6 lg:top-44 lg:left-32 text-white text-xs lg:text-5xl font-semibold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+              <div className="absolute top-16 left-6 lg:top-44 lg:left-12 text-white text-xs lg:text-5xl font-semibold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                 Coban Rondo
               </div>
             </div>
@@ -337,7 +337,7 @@ function LandingPage() {
                 alt=""
                 className="w-full transition-transform duration-500 transform group-hover:brightness-75"
               />
-              <div className="absolute top-16 left-10 lg:top-44 lg:left-32 text-white text-xs lg:text-5xl font-semibold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+              <div className="absolute top-16 left-10 lg:top-44 lg:left-14 text-white text-xs lg:text-5xl font-semibold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                 Semeru 
               </div>
             </div>

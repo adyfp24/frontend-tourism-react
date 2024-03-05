@@ -200,7 +200,7 @@ function About() {
                 <Link to='/destinasi/museum-angkut'>
                   <div className='h-full w-full relative group'>
                     <img className='w-full h-full transition-transform duration-500 transform group-hover:brightness-75' src={museumAngkut} alt="" />
-                    <div className="absolute top-16 left-10 lg:top-44 lg:left-32 text-white text-xs lg:text-5xl font-semibold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                    <div className="absolute top-16 left-10 lg:top-32 lg:left-14 text-white text-xs lg:text-5xl font-semibold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                       Museum Angkut
                     </div>
                   </div>
