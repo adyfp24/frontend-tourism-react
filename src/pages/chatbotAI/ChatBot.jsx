@@ -25,7 +25,7 @@ import { useState, useRef } from "react";
 
 function SideChat() {
   return (
-    <div id="chat" className="hidden lg:block mt-6">
+    <div id="chat" className="lg:block mt-6">
       <div>
         <div className="judul flex">
           <div>
@@ -130,6 +130,7 @@ function ChatBot() {
                 <p className="text-custom-200 font-bold mx-2">24</p>
               </div>
             </div>
+            {isChatVisible && <SideChat />}
             <div className="m-4 w-full hidden lg:flex justify-around ">
               <div className="m-4  w-full rounded-xl flex items-center justify-center">
                 <img src={save} alt="" />
@@ -138,8 +139,7 @@ function ChatBot() {
                   <p className=" font-bold mx-2">24</p>
                 </div>
               </div>
-            </div>
-            {isChatVisible && <SideChat />}
+            </div>           
           </div>
           <div id="searchbar" className="hidden lg:block mt-4">
             <div className="flex justify-between">

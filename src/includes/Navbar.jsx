@@ -7,7 +7,7 @@ function Navbar() {
     const toogleDropdown = () => {
         setIsDropdownOpen(!isDropdownOpen);
     }
-    return (
+    return (    
         <div className="flex flex-wrap">
             <section className="relative mx-auto">
                 <nav className="fixed top-0 left-0 z-50 flex justify-between bg-custom-100 text-black w-screen">

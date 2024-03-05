@@ -92,26 +92,26 @@ const ParallaxSection = () => {
       />
       <img
         src={cloud1}
-        className="absolute w-1/4 ml-32 h-34 bottom-16 mb-3 sm:absolute sm:w-1/3 sm:h-34 sm:left-44 sm:top-96 sm:mt-72 md:absolute md:w-1/3 md:h-34 md:mt-48 md:left-44 md:top-96 lg:absolute lg:w-1/3 lg:h-30 lg:left-80 lg:top-96 lg:mt-56 xl:absolute xl:w-1/3 xl:h-34 xl:left-96 xl:top-96 2xl:absolute 2xl:w-1/3 2xl:h-34 2xl:left-96 2xl:top-96 parallax"
+        className="absolute w-1/4 ml-32 h-34 bottom-16 mb-3 sm:absolute sm:w-1/3 sm:h-34 sm:left-44 sm:top-96 sm:mt-72 md:absolute md:w-1/3 md:h-34 md:mt-48 md:left-44 md:top-96 lg:absolute lg:w-1/3 lg:h-30 lg:left-80 lg:top-96 lg:mt-56 xl:absolute xl:w-1/3 xl:h-34 xl:left-96 xl:top-96 2xl:absolute 2xl:w-1/3 2xl:h-34 2xl:left-96 2xl:ml-96 2xl:top-52 parallax"
         data-speed="0.1"
         alt="Cloud 1"
       />
       <img
         src={cloud2}
-        className="absolute w-60 h-24 bottom-8 right-48  sm:absolute sm:w-1/3 sm:h-34 sm:top-96 sm:right-80 sm:mt-72 md:absolute md:w-1/3 md:h-34 md:mt-48 md:left-24 lg:absolute lg:w-1/3 lg:h-34 lg:top-96 lg:mt-56 lg:right-80 xl:absolute xl:w-1/3 xl:h-34 xl:top-96 xl:right-80 2xl:absolute 2xl:w-1/3 2xl:h-34 2xl:top-96 2xl:right-96 parallax"
+        className="absolute w-60 h-24 bottom-8 right-48  sm:absolute sm:w-1/3 sm:h-34 sm:top-96 sm:right-80 sm:mt- md:absolute md:w-1/3 md:h-34 md:mt-48 md:left-24 lg:absolute lg:w-1/3 lg:h-34 lg:top-96 lg:mt-56 lg:right-80 xl:absolute xl:w-1/3 xl:h-34 xl:top-96 xl:right-80 2xl:absolute 2xl:w-1/3 2xl:h-52 2xl:top-52 2xl:right-96 parallax"
         data-speed="0.2"
         alt="Cloud 2"
       />
       <img
         src={cloud3}
-        className="absolute w-24 h-20 bottom-32 right-0 sm:absolute sm:w-64 sm:h-34 sm:top-64 sm:mt-80 sm:right-0 md:absolute md:w-64 md:h-34 md:mt-72
-         md:right-0 lg:absolute lg:w-64 lg:h-34 lg:top-96 lg:mt-10 lg:right-0 xl:absolute xl:w-64 xl:h-34 xl:top-64 xl:right-0 2xl:absolute 2xl:w-64 2xl:h-34  2xl:right-0 parallax"
+        className="absolute w-24 h-20 bottom-32 right-0 sm:absolute sm:w-64 sm:h-34 sm:top-80 sm:mt-80 sm:right-0 md:absolute md:w-64 md:h-34 md:mt-72
+         md:right-0 lg:absolute lg:w-64 lg:h-34 lg:top-96 lg:mt-10 lg:right-0 xl:absolute xl:w-64 xl:h-34 xl:top-64 xl:right-0 2xl:absolute 2xl:w-64 2xl:h-48 2xl:right-0 parallax"
         data-speed="0.4"
         alt="Cloud 3"
       />
       <img
         src={mountain3}
-        className="absolute bottom-16 left-0 sm:absolute sm:top-52 sm:pt-80 sm:mt-4 sm:left-0 md:absolute md:pt-72 md:left-0 lg:absolute lg:top-56 lg:mt-14 lg:left-0 xl:absolute xl:top-80 xl:left-0 2xl:absolute 2xl:top-28 2xl:left-0 parallax z-10"
+        className="absolute bottom-16 left-0 sm:absolute sm:top-96 sm:pt-80 sm:mt-4 sm:left-0 md:absolute md:pt-72 md:left-0 lg:absolute lg:top-56 lg:mt-14 lg:left-0 xl:absolute xl:top-80 xl:left-0 2xl:absolute 2xl:top-0 2xl:left-0 parallax z-10"
         data-speed="0.1"
         alt="Mountain 3"
       />
@@ -141,11 +141,11 @@ const ParallaxSection = () => {
       />
       <div className="flex flex-col pt-36 w-full h-full  ">
         <h1 className="font-bold text-center text-custom-300  ">
-          <span className=" text-4xl md:text-8xl lg:text-4xl absolute left-1/3 pl-52  font-bold parallax2" data-speed="0.8">
+        <span className="text-1xl absolute top-36 left-52 sm:text-3xl sm:absolute sm:left-12 sm:pl-52 md:text-4xl md:absolute md:left-24 md:pl-72 lg:text-4xl lg:absolute lg:left-1/4 lg:pl-36 xl:text-4xl xl:absolute xl:left-1/3 xl:pl-36 2xl:text-4xl 2xl:absolute 2xl:left-1/3 2xl:pl-52 font-bold parallax2" data-speed="0.8">
             WONDERFUL OF
           </span>
           <br />
-          <span className="text-3xl absolute left-20 ml-3 top-36 pt-10 sm:text-7xl sm:absolute sm:left-72 sm:pl-52  sm:pt-10 md:text-7xl md:absolute md:left-26  md:pl-2 md:pt-10 lg:text-8xl lg:absolute lg:left-1/4 lg:pl-2 lg:pt-10 xl:text-8xl xl:absolute xl:left-1/3 xl:pl-8 xl:pt-10 2xl:text-8xl 2xl:absolute 2xl:left-1/3 2xl:pl-20 2xl:pt-10 font-bold parallax2" data-speed="0.8">
+          <span className="text-3xl absolute left-44 ml-3 top-36 pt-10 sm:text-7xl sm:absolute sm:left-72 sm:pl-52  sm:pt-10 md:text-7xl md:absolute md:left-26  md:pl-2 md:pt-10 lg:text-8xl lg:absolute lg:left-1/4 lg:pl-2 lg:pt-10 xl:text-8xl xl:absolute xl:left-1/3 xl:pl-8 xl:pt-10 2xl:text-8xl 2xl:absolute 2xl:left-1/3 2xl:pl-20 2xl:pt-10 font-bold parallax2" data-speed="0.8">
             M A L A N G
           </span>
         </h1>
