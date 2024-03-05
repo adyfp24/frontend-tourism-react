@@ -34,7 +34,7 @@ import arrow from "../assets/images/landingpage/arrow.png";
 import arrowleft from "../assets/images/landingpage/arrowleft.png";
 import arrowdown from "../assets/images/landingpage/arrowdown.png";
 import starlima from "../assets/images/landingpage/rate 5.png";
-import tipsMalang from '../assets/images/tips-malang.png'
+import tipsMalang from "../assets/images/tips-malang.png";
 import starempat from "../assets/images/landingpage/rate 4.png";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -78,7 +78,6 @@ const ParallaxSection = () => {
     };
   }, []);
 
-
   return (
     <section
       id="parallax"
@@ -86,7 +85,7 @@ const ParallaxSection = () => {
     >
       <img
         src={bird}
-        className="absolute w-auto h-6 left-1/4 top-96 sm:absolute sm:w-auto sm:h-12 sm:left-1/4 sm:top-80 sm:mt-56 md:absolute md:w-auto md:h-12 md:left-1/4 md:top-96 lg:absolute lg:w-auto lg:h-12 lg:left-1/4 lg:top-96 xl:absolute xl:w-auto xl:h-12 xl:left-1/4 xl:top-96 2xl:absolute 2xl:w-auto 2xl:h-12 2xl:left-1/4 2xl:top-96 parallax " 
+        className="absolute w-auto h-6 left-1/4 top-96 sm:absolute sm:w-auto sm:h-12 sm:left-1/4 sm:top-80 sm:mt-56 md:absolute md:w-auto md:h-12 md:left-1/4 md:top-96 lg:absolute lg:w-auto lg:h-12 lg:left-1/4 lg:top-96 xl:absolute xl:w-auto xl:h-12 xl:left-1/4 xl:top-96 2xl:absolute 2xl:w-auto 2xl:h-12 2xl:left-1/4 2xl:top-96 parallax "
         data-speed="0.6"
         alt="Bird"
       />
@@ -123,29 +122,35 @@ const ParallaxSection = () => {
       />
       <img
         src={mountain1}
-        className="absolute -bottom-8 mb-5 left-0 sm:absolute sm:-bottom-24 sm:left-0 md:absolute md:-bottom-16 md:left-0 lg:absolute lg:-bottom-16 lg:left-0 xl:absolute xl:-bottom-8 xl:left-0 2xl:absolute 2xl:-bottom-8 2xl:left-0 parallax z-10"
+        className="absolute -bottom-9 mb-5 left-0 sm:absolute sm:-bottom-24 sm:left-0 md:absolute md:-bottom-16 md:left-0 lg:absolute lg:-bottom-16 lg:left-0 xl:absolute xl:-bottom-8 xl:left-0 2xl:absolute 2xl:-bottom-8 2xl:left-0 parallax z-10"
         data-speed="0.1 "
         alt="Mountain 1"
       />
       <img
         src={tree}
-        className="absolute -bottom-8 left-0 sm:absolute sm:-bottom-24 sm:left-0 md:absolute  md:left-0 lg:absolute lg:-bottom-24 lg:left-0 xl:absolute xl:-bottom-24 xl:left-0 2xl:absolute 2xl:-bottom-24 2xl:left-0 parallax z-10"
+        className="absolute -bottom-9 left-0 sm:absolute sm:-bottom-24 sm:left-0 md:absolute  md:left-0 lg:absolute lg:-bottom-24 lg:left-0 xl:absolute xl:-bottom-24 xl:left-0 2xl:absolute 2xl:-bottom-24 2xl:left-0 parallax z-10"
         data-speed="0.1"
         alt="Tree"
       />
       <img
         src={ground}
-        className="absolute -bottom-9 left-0 sm:absolute sm:-bottom-24 sm:left-0 md:absolute md:-bottom- md:left-0 lg:absolute lg:-bottom-24 lg:left-0 xl:absolute xl:-bottom-24 xl:left-0 2xl:absolute 2xl:-bottom-24 2xl:left-0 parallax z-10"
+        className="absolute -bottom-10 left-0 sm:absolute sm:-bottom-24 sm:left-0 md:absolute md:-bottom- md:left-0 lg:absolute lg:-bottom-24 lg:left-0 xl:absolute xl:-bottom-24 xl:left-0 2xl:absolute 2xl:-bottom-24 2xl:left-0 parallax z-10"
         data-speed="0.1"
         alt="Ground"
       />
       <div className="flex flex-col pt-36 w-full h-full  ">
         <h1 className="font-bold text-center text-custom-300  ">
-        <span className="text-1xl absolute top-36 left-52 sm:text-3xl sm:absolute sm:left-12 sm:pl-52 md:text-4xl md:absolute md:left-24 md:pl-72 lg:text-4xl lg:absolute lg:left-1/4 lg:pl-36 xl:text-4xl xl:absolute xl:left-1/3 xl:pl-36 2xl:text-4xl 2xl:absolute 2xl:left-1/3 2xl:pl-52 font-bold parallax2" data-speed="0.8">
+          <span
+            className="text-1xl absolute top-36 left-32 sm:text-3xl sm:absolute sm:left-12 sm:pl-52 md:text-4xl md:absolute md:left-24 md:pl-72 lg:text-4xl lg:absolute lg:left-1/4 lg:pl-36 xl:text-4xl xl:absolute xl:left-1/3 xl:pl-36 2xl:text-4xl 2xl:absolute 2xl:left-1/3 2xl:pl-52 font-bold parallax2"
+            data-speed="0.8"
+          >
             WONDERFUL OF
           </span>
           <br />
-          <span className="text-3xl absolute left-44 ml-3 top-36 pt-10 sm:text-7xl sm:absolute sm:left-72 sm:pl-52  sm:pt-10 md:text-7xl md:absolute md:left-26  md:pl-2 md:pt-10 lg:text-8xl lg:absolute lg:left-1/4 lg:pl-2 lg:pt-10 xl:text-8xl xl:absolute xl:left-1/3 xl:pl-8 xl:pt-10 2xl:text-8xl 2xl:absolute 2xl:left-1/3 2xl:pl-20 2xl:pt-10 font-bold parallax2" data-speed="0.8">
+          <span
+            className="text-3xl absolute left-24 ml-3 top-36 pt-10 sm:text-7xl sm:absolute sm:left-72 sm:pl-52  sm:pt-10 md:text-7xl md:absolute md:left-26  md:pl-2 md:pt-10 lg:text-8xl lg:absolute lg:left-1/4 lg:pl-2 lg:pt-10 xl:text-8xl xl:absolute xl:left-1/3 xl:pl-8 xl:pt-10 2xl:text-8xl 2xl:absolute 2xl:left-1/3 2xl:pl-20 2xl:pt-10 font-bold parallax2"
+            data-speed="0.8"
+          >
             M A L A N G
           </span>
         </h1>
@@ -208,7 +213,10 @@ function LandingPage() {
       <ParallaxSection />
       <div className="body parallax bg-custom-300 pt-16 pb-2 xl:pt-32 flex flex-col items-center ">
         <div id="body 1" className=" p-6 w-11/12">
-          <div id="tentang malang" className="sm:flex h-80 rounded-lg sm:justify-normal">
+          <div
+            id="tentang malang"
+            className="sm:flex h-80 rounded-lg sm:justify-normal"
+          >
             <div className="bg-custom-100 rounded-xl flex relative ">
               <img
                 src={bromohead}
@@ -227,7 +235,9 @@ function LandingPage() {
               />
             </div>
             <div className="bg-custom-100 rounded-xl xl:pl-80 2xl:pl-32 mt-2 flex flex-col p-5 sm:p-0 justify-center text-start">
-              <p className="lg:text-xl xl:text-2xl 2xl:text-4xl font-semibold pb-3">Tentang Malang</p>
+              <p className="lg:text-xl xl:text-2xl 2xl:text-4xl font-semibold pb-3">
+                Tentang Malang
+              </p>
               <p className="lg:text-xs xl:text-lg 2xl:text-xl pb-3">
                 Kota Malang adalah sebuah kota yang terletak di provinsi Jawa
                 Timur, Indonesia,
@@ -242,37 +252,100 @@ function LandingPage() {
               </p>
             </div>
           </div>
-          <div id="mulai petualangan" className="mt-80 sm:mt-0 sm:pt-10 lg:pt-20 xl:pt-48 2xl:pt-48 mb-10">
+          <div
+            id="mulai petualangan"
+            className="mt-80 sm:mt-0 sm:pt-10 lg:pt-20 xl:pt-48 2xl:pt-48 mb-10"
+          >
             <div className="flex text-white font-bold text-xs sm:text-xl lg:text-2xl xl:text-4xl 2xl:text-6xl justify-center gap-3 sm:gap-5 lg:gap-5 xl:gap-10 2xl:gap-20">
-              <p >MULAI TEMUKAN</p>
-              <img src={mulai} className="w-auto h-2 hidden sm:block sm:h-10 lg:h-14 xl:h-16" />
+              <p>MULAI TEMUKAN</p>
+              <img
+                src={mulai}
+                className="w-auto h-2 hidden sm:block sm:h-10 lg:h-14 xl:h-16"
+              />
               <p>PETUALANGAN</p>
             </div>
             <div className="flex text-white font-bold text-xs sm:text-xl lg:text-2xl xl:text-4xl 2xl:text-6xl justify-center gap-3 sm:gap-5 lg:gap-5 xl:gap-10 2xl:gap-20 pt-4">
               <p>NIKMATI</p>
-              <img src={nikmati} className="w-auto h-2 hidden sm:block sm:h-10 lg:h-14 xl:h-16" />
+              <img
+                src={nikmati}
+                className="w-auto h-2 hidden sm:block sm:h-10 lg:h-14 xl:h-16"
+              />
               <p>PENGALAMAN MENAKJUBKAN</p>
             </div>
           </div>
           <div id="card" className=" p-5 grid grid-cols-2 sm:grid-cols-4 gap-6">
-            <img src={satu} alt="" className="" />
+            <div className="relative group">
+              <img
+                src={satu}
+                alt=""
+                className="w-full transition-transform duration-500 transform group-hover:brightness-75"
+              />
+              <div className="absolute top-16 left-4 lg:top-44 lg:left-30 text-white text-xs lg:text-5xl font-semibold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                Museum Angkut 
+              </div>
+            </div>
             <div className="">
               <img src={frame} alt="" />
-              <p className="relative bottom-10 left-2 sm:bottom-20 sm:left-4 lg:bottom-24 lg:left-4 xl:bottom-36 xl:left-8 text-white font-semibold  lg:text-2xl xl:text-4xl 2xl:text-5xl">
+              <p className="relative bottom-10 left-2 sm:bottom-20 sm:left-4 tex lg:bottom-24 lg:left-4 xl:bottom-36 xl:left-8 text-white font-semibold  lg:text-2xl xl:text-4xl 2xl:text-5xl">
                 Wonderful
               </p>
             </div>
-            <img src={dua} alt="" />
-            <img src={tiga} alt="" />
-            <img src={empat} alt="" />
-            <img src={lima} alt="" />
+            <div className="relative group">
+              <img
+                src={dua}
+                alt=""
+                className="w-full transition-transform duration-500 transform group-hover:brightness-75"
+              />
+              <div className="absolute top-16 left-6 lg:top-44 lg:left-32 text-white text-xs lg:text-5xl font-semibold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                Coban Rondo
+              </div>
+            </div>
+            <div className="relative group">
+              <img
+                src={tiga}
+                alt=""
+                className="w-full transition-transform duration-500 transform group-hover:brightness-75"
+              />
+              <div className="absolute top-16 left-8 lg:top-44 lg:left-30 text-white text-xs lg:text-5xl font-semibold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                Jatim Park 
+              </div>
+            </div>
+            <div className="relative group">
+              <img
+                src={empat}
+                alt=""
+                className="w-full transition-transform duration-500 transform group-hover:brightness-75"
+              />
+              <div className="absolute top-16 left-7 lg:top-44 lg:left-30 text-center text-white text-xs lg:text-5xl font-semibold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                Tugu Malang
+              </div>
+            </div>
+            <div className="relative group">
+              <img
+                src={lima}
+                alt=""
+                className="w-full transition-transform duration-500 transform group-hover:brightness-75"
+              />
+              <div className="absolute top-16 left-10 lg:top-44 lg:left-32 text-white text-xs lg:text-5xl font-semibold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                Semeru 
+              </div>
+            </div>
             <div className="">
               <img src={frame} alt="" />
               <p className="relative bottom-10 left-2 sm:bottom-20 sm:left-4 lg:bottom-24 lg:left-4 xl:bottom-36 xl:left-8 text-white font-semibold lg:text-2xl xl:text-4xl 2xl:text-5xl">
                 Malang
               </p>
             </div>
-            <img src={enam} alt="" />
+            <div className="relative group">
+              <img
+                src={enam}
+                alt=""
+                className="w-full transition-transform duration-500 transform group-hover:brightness-75"
+              />
+              <div className="absolute top-16 left-5 lg:top-44 lg:left-30 text-white text-xs lg:text-5xl font-semibold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                Musem Angkut
+              </div>
+            </div>
           </div>
           <div className=" h-10 text-center text-white flex justify-center mb-20">
             <p className="font-medium bg-custom-200 w-36 rounded-full p-2">
@@ -281,7 +354,9 @@ function LandingPage() {
           </div>
           <div className="bg-custom-100 shadow-xl rounded-xl flex justify-between">
             <div className="justify-center w-full relative left-5 sm:left-20 flex flex-col">
-              <p className="font-semibold lg:text-xl xl:text-5xl">Hai, Aku Jaka</p>
+              <p className="font-semibold lg:text-xl xl:text-5xl">
+                Hai, Aku Jaka
+              </p>
               <p className="mt-5 lg:text-xl xl:text-3xl">
                 Chatbot yang akan membantumu menjelajahi Malang. <br />
                 Tanyakan apapun padaku untuk mengetahui Malang lebih banyak
@@ -295,11 +370,14 @@ function LandingPage() {
             </div>
           </div>
         </div>
-        <section id='tips' className=' sm:mt-14 my-6 mb-0 sm:mb-12 h-full font-sans'>
-        <div className=' py-6'>
-          <img className='w-full' src={tipsMalang} alt="" />
-        </div>
-      </section>
+        <section
+          id="tips"
+          className=" sm:mt-14 my-6 mb-0 sm:mb-12 h-full font-sans"
+        >
+          <div className=" py-6">
+            <img className="w-full" src={tipsMalang} alt="" />
+          </div>
+        </section>
 
         <div id="card section" className="w-11/12">
           <div className="flex justify-between">
@@ -348,7 +426,7 @@ function LandingPage() {
             </div>
             <div>
               <img src={angkot} alt="" />
-              <div className="bg-white p-5 rounded-b-xl h-44">  
+              <div className="bg-white p-5 rounded-b-xl h-44">
                 <p className="font-normal">baca 4 menit</p>
                 <p className="font-bold">Liburan? Museum Angkut, Yuk </p>
                 <p className="font-semibold">
