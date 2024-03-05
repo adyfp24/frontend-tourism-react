@@ -316,8 +316,8 @@ function CobanRondo() {
                                 </div>
                             </div>
                             <div className='flex flex-col w-8/12 ml-4  h-full'>
-                                <h3 className='font-semibold text-sm sm:text-lg'>Happy bangettt</h3>
-                                <p className='text-xs sm:text-base font-thin text-justify'>Baguss bangett. Air terjunnya cakepp, terus enak banget ada fun tubingnya, seruu bangett pokoknya kalian kalo ke malang harus kesini, oiya datengnya agak pagian enak biar ga terlalu rame dan lebih sejuk</p>
+                                <h3 className='font-semibold text-sm sm:text-lg'>Cocok buat family time</h3>
+                                <p className='text-xs sm:text-base font-thin text-justify'>Coban rondo emang udah jadi planning sekeluarga kalo liburan kesini. bagus banget ternyata, dan pas kesana pas banget ada pelanginya jadi nambah bagus, top deh buat coban rondo</p>
                             </div>
 
                         </div>
@@ -334,8 +334,8 @@ function CobanRondo() {
                                 </div>
                             </div>
                             <div className='flex flex-col w-8/12 ml-4  h-full'>
-                                <h3 className='font-semibold text-sm sm:text-lg'>Happy bangettt</h3>
-                                <p className='text-xs sm:text-base font-thin text-justify'>Baguss bangett. Air terjunnya cakepp, terus enak banget ada fun tubingnya, seruu bangett pokoknya kalian kalo ke malang harus kesini, oiya datengnya agak pagian enak biar ga terlalu rame dan lebih sejuk</p>
+                                <h3 className='font-semibold text-sm sm:text-lg'>Kids really happy</h3>
+                                <p className='text-xs sm:text-base font-thin text-justify'>kalo liburan enak kesini soalnya murah, permainannya lumayan banyak jadi anak-anak happy, pemandangannya juga bagus, cuma sayang mushola sama toiletnya agak kotor</p>
                             </div>
 
                         </div>

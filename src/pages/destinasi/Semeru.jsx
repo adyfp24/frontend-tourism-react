@@ -306,8 +306,8 @@ function Semeru() {
                                 </div>
                             </div>
                             <div className='flex flex-col w-8/12 ml-4  h-full'>
-                                <h3 className='font-semibold text-sm sm:text-lg'>Happy bangettt</h3>
-                                <p className='text-xs sm:text-base font-thin text-justify'>Baguss bangett. Air terjunnya cakepp, terus enak banget ada fun tubingnya, seruu bangett pokoknya kalian kalo ke malang harus kesini, oiya datengnya agak pagian enak biar ga terlalu rame dan lebih sejuk</p>
+                                <h3 className='font-semibold text-sm sm:text-lg'>Bagus bangettt</h3>
+                                <p className='text-xs sm:text-base font-thin text-justify'>Baguss bangett. Ga nyangka ternyata sebagus itu apalagi sunrisenya. btw ini pendakian pertamaku dan ya lumayan capek tapi sebanding banget sama view yang bakalan kamu dapet. Buat yang baru pertama dai kaya aku pastiin kalian mendaki sama orang yang udah berpengalaman yaa</p>
                             </div>
 
                         </div>
@@ -324,8 +324,8 @@ function Semeru() {
                                 </div>
                             </div>
                             <div className='flex flex-col w-8/12 ml-4  h-full'>
-                                <h3 className='font-semibold text-sm sm:text-lg'>Happy bangettt</h3>
-                                <p className='text-xs sm:text-base font-thin text-justify'>Baguss bangett. Air terjunnya cakepp, terus enak banget ada fun tubingnya, seruu bangett pokoknya kalian kalo ke malang harus kesini, oiya datengnya agak pagian enak biar ga terlalu rame dan lebih sejuk</p>
+                                <h3 className='font-semibold text-sm sm:text-lg'>Sunrise Gokil</h3>
+                                <p className='text-xs sm:text-base font-thin text-justify'>Gunung semeru emang udah terkenal bagus banget. Pas kesini keadaan agak mendung tapi alhamdulillah aman sampai puncak sampai turunnya juga aman, dari beberapa gunung yang pernah aku daki, rute gunung semeru ini yang termasuk enak.</p>
                             </div>
 
                         </div>
@@ -342,8 +342,8 @@ function Semeru() {
                                 </div>
                             </div>
                             <div className='flex flex-col w-8/12 ml-4  h-full'>
-                                <h3 className='font-semibold text-sm sm:text-lg'>Happy bangettt</h3>
-                                <p className='text-xs sm:text-base font-thin text-justify'>Baguss bangett. Air terjunnya cakepp, terus enak banget ada fun tubingnya, seruu bangett pokoknya kalian kalo ke malang harus kesini, oiya datengnya agak pagian enak biar ga terlalu rame dan lebih sejuk</p>
+                                <h3 className='font-semibold text-sm sm:text-lg'>OMG, Amazing</h3>
+                                <p className='text-xs sm:text-base font-thin text-justify'>Bagusss, tapi sayang banget ga sampe puncak soalnya aku gakuat lagi sampe kakiku gemeter, mungkin gara-gara aku jarang olahraga tapi sekalinya muncuk langsung dipaksain ke gunung semeru. tapi so far meski ga sampe puncak, view nya baguss bangett apalagi pas di ranu kumbolo</p>
                             </div>
 
                         </div>
