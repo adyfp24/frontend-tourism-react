@@ -110,7 +110,7 @@ function ChatBot() {
           <img src={settings} alt="" className="w-12 h-12 ml-4 mt-6" />
         </div>
       </div>
-      <div className="lg:ml-4 ml-0 h-[780px] lg:grid grid-cols-[400px,1370px] gap-4 mt-24 w-full">
+      <div className="lg:ml-4 ml-0 h-[780px] lg:grid grid-cols-[400px,1370px] gap-4 mt-16 sm:mt-24 w-full">
         <div className="Chatbox mb-3 lg:mb-0">
           <div className="flex justify-between">
             <p className="text-2xl font-medium font-sans ml-4 lg:ml-0">Chat</p>
