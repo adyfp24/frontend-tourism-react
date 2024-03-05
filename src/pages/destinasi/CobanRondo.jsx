@@ -29,6 +29,8 @@ import cuaca2 from '../../assets/images/destinasi/cuaca2.png'
 import starKiri from '../../assets/images/destinasi/star-kiri.png'
 import starKanan from '../../assets/images/destinasi/star-kanan.png'
 import ppReview from '../../assets/images/destinasi/pp-review.png'
+import pp2 from '../../assets/images/destinasi/pp2.png'
+import pp3 from '../../assets/images/destinasi/pp3.png'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
@@ -307,12 +309,12 @@ function CobanRondo() {
                         <div className='w-full h-full sm:h-36 flex mb-4'>
                             <div className='flex w-4/12 h-full'>
                                 <div >
-                                    <img className='' src={ppReview} alt="" />
+                                    <img className='' src={pp2} alt="" />
                                 </div>
                                 <div className='flex flex-col pl-1 sm:pl-0 sm:mt-2'>
                                     <img className='w-20' src={starKiri} alt="" />
-                                    <h3 className='text-sm font-medium'>Yurasara</h3>
-                                    <h6 className='text-xs font-thin'>2 Maret 2023</h6>
+                                    <h3 className='text-sm font-medium'>Sherly</h3>
+                                    <h6 className='text-xs font-thin'>19 Maret 2023</h6>
                                 </div>
                             </div>
                             <div className='flex flex-col w-8/12 ml-4  h-full'>
@@ -325,12 +327,12 @@ function CobanRondo() {
                         <div className='w-full h-full sm:h-36 flex mb-4'>
                             <div className='flex w-4/12 h-full'>
                                 <div>
-                                    <img className='' src={ppReview} alt="" />
+                                    <img className='' src={pp3} alt="" />
                                 </div>
                                 <div className='flex flex-col pl-1 sm:pl-0 sm:mt-2'>
                                     <img className='w-20' src={starKiri} alt="" />
-                                    <h3 className='text-sm font-medium'>Yurasara</h3>
-                                    <h6 className='text-xs font-thin'>2 Maret 2023</h6>
+                                    <h3 className='text-sm font-medium'>Daniel</h3>
+                                    <h6 className='text-xs font-thin'>2 Agustus 2023</h6>
                                 </div>
                             </div>
                             <div className='flex flex-col w-8/12 ml-4  h-full'>
