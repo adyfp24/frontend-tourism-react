@@ -4,6 +4,8 @@ import Footer from '../includes/Footer'
 import destinasi1 from '../assets/images/des-tugu.png'
 import destinasi2 from '../assets/images/des-angkut.png'
 import destinasi3 from '../assets/images/des-park.png'
+import destinasi4 from '../assets/images/coban.png'
+import destinasi5 from '../assets/images/tugu1.png'
 import semeru from '../assets/images/about/semeru-about.png'
 import jatimPark from '../assets/images/about/jtp-about.png'
 import museumAngkut from '../assets/images/about/museum-about.png'
@@ -81,13 +83,13 @@ function Destinasi() {
         <div className='px-1 sm:px-6'>
           <Slider className='w-full py-6 sm:py-12 mb-12 px-2' {...settings}>
             <div className=''>
-              <img className='w-5/6' src={destinasi1} alt="" />
+              <img className='w-5/6' src={destinasi4} alt="" />
+            </div>
+            <div className=''>
+              <img className='w-5/6' src={destinasi5} alt="" />
             </div>
             <div className=''>
               <img className='w-5/6' src={destinasi2} alt="" />
-            </div>
-            <div className=''>
-              <img className='w-5/6' src={destinasi3} alt="" />
             </div>
           </ Slider>
         </div>
