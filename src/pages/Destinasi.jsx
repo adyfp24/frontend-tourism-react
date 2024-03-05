@@ -65,13 +65,22 @@ function Destinasi() {
         <div className='px-1 sm:px-6'>
           <Slider className='w-full py-6 sm:py-12 mb-12 px-2' {...settings}>
             <div className=''>
+              <a href="./destinasi/tugu-malang">
+
               <img className='w-5/6' src={destinasi1} alt="" />
+              </a>
             </div>
             <div className=''>
+              <a href="./destinasi/museum-angkut">
+
               <img className='w-5/6' src={destinasi2} alt="" />
+              </a>
             </div>
             <div className=''>
+              <a href="./destinasi/jatim-park">
+
               <img className='w-5/6' src={destinasi3} alt="" />
+              </a>
             </div>
           </ Slider>
         </div>
@@ -81,13 +90,22 @@ function Destinasi() {
         <div className='px-1 sm:px-6'>
           <Slider className='w-full py-6 sm:py-12 mb-12 px-2' {...settings}>
             <div className=''>
+              <a href="./destinasi/tugu-malang">
+
               <img className='w-5/6' src={destinasi1} alt="" />
+              </a>
             </div>
             <div className=''>
+              <a href="./destinasi/museum-angkut">
+
               <img className='w-5/6' src={destinasi2} alt="" />
+              </a>
             </div>
             <div className=''>
+              <a href="./destinasi/jatim-park">
+
               <img className='w-5/6' src={destinasi3} alt="" />
+              </a>
             </div>
           </ Slider>
         </div>
