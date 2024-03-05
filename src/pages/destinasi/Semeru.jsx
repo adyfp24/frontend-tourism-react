@@ -70,7 +70,7 @@ function Semeru() {
                     </div>
                     <div className='font-thin text-xl ml-1 mt-4 text-justify sm:mt-10'>
                         <p className=''>
-                            Gunung Bromo adalah salah satu gunung api yang masih aktif di Indonesia. Gunung yang memiliki ketinggian 2.392 meter di atas permukaan laut ini merupakan destinasi andalan Jawa Timur. Gunung Bromo berdiri gagah dikelilingi kaldera atau lautan pasir seluas 10 kilometer persegi.
+                            Gunung Semeru 
                         </p>
                     </div>
                 </div>

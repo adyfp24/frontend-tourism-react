@@ -36,6 +36,7 @@ import arrowdown from "../assets/images/landingpage/arrowdown.png";
 import starlima from "../assets/images/landingpage/rate 5.png";
 import tipsMalang from "../assets/images/tips-malang.png";
 import starempat from "../assets/images/landingpage/rate 4.png";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -141,14 +142,14 @@ const ParallaxSection = () => {
       <div className="flex flex-col pt-36 w-full h-full  ">
         <h1 className="font-bold text-center text-custom-300  ">
           <span
-            className="text-1xl absolute top-36 left-32 sm:text-3xl sm:absolute sm:left-12 sm:pl-52 md:text-4xl md:absolute md:left-24 md:pl-72 lg:text-4xl lg:absolute lg:left-1/4 lg:pl-36 xl:text-4xl xl:absolute xl:left-1/3 xl:pl-36 2xl:text-4xl 2xl:absolute 2xl:left-1/3 2xl:pl-52 font-bold parallax2"
+            className="absolute top-36 left-24 text-2xl sm:text-3xl sm:absolute sm:left-12 sm:pl-52 md:text-4xl md:absolute md:left-24 md:pl-72 lg:text-4xl lg:absolute lg:left-1/4 lg:pl-36 xl:text-4xl xl:absolute xl:left-1/3 xl:pl-36 2xl:text-4xl 2xl:absolute 2xl:left-1/3 2xl:pl-52 font-bold parallax2"
             data-speed="0.8"
           >
             WONDERFUL OF
           </span>
           <br />
           <span
-            className="text-3xl absolute left-24 ml-3 top-36 pt-10 sm:text-7xl sm:absolute sm:left-72 sm:pl-52  sm:pt-10 md:text-7xl md:absolute md:left-26  md:pl-2 md:pt-10 lg:text-8xl lg:absolute lg:left-1/4 lg:pl-2 lg:pt-10 xl:text-8xl xl:absolute xl:left-1/3 xl:pl-8 xl:pt-10 2xl:text-8xl 2xl:absolute 2xl:left-1/3 2xl:pl-20 2xl:pt-10 font-bold parallax2"
+            className="absolute left-12 ml-3 top-36 pt-10 text-5xl sm:text-7xl sm:absolute sm:left-72 sm:pl-52  sm:pt-10 md:text-7xl md:absolute md:left-26  md:pl-2 md:pt-10 lg:text-8xl lg:absolute lg:left-1/4 lg:pl-2 lg:pt-10 xl:text-8xl xl:absolute xl:left-1/3 xl:pl-8 xl:pt-10 2xl:text-8xl 2xl:absolute 2xl:left-1/3 2xl:pl-20 2xl:pt-10 font-bold parallax2"
             data-speed="0.8"
           >
             M A L A N G
@@ -199,7 +200,7 @@ const FaQQuestion = ({ question, answer }) => {
           className={showAnswer ? "w-3 h-5" : "hidden mt-3"}
         />
       </div>
-      <p id="jawaban" className={showAnswer ? "mt-3 pl-4" : "hidden mt-3"}>
+      <p id="jawaban" className={showAnswer ? "mt-3 pl-4 text-sm" : "hidden mt-3"}>
         {answer}
       </p>
     </div>
@@ -221,35 +222,35 @@ function LandingPage() {
               <img
                 src={bromohead}
                 alt="bromo"
-                className="relative h-44 left-10 xl:h-96 xl:left-10 xl:bottom-7 2xl:h-96 2xl:left-10 2xl:bottom-7 transform translate-x-[-20px]"
+                className="relative h-44 left-10 xl:h-96 xl:left-10 xl:bottom-7 md:h-full 2xl:h-96 2xl:left-10 2xl:bottom-7 transform translate-x-[-20px]"
               />
               <img
                 src={malanghead}
                 alt="kota malang"
-                className="relative h-44 left-16 xl:h-96 xl:left-20 xl:bottom-7 2xl:h-96 2xl:left-20 2xl:bottom-7 transform translate-x-[-20px]"
+                className="relative h-44 left-16 xl:h-96 xl:left-20 xl:bottom-7 md:h-full 2xl:h-96 2xl:left-20 2xl:bottom-7 transform translate-x-[-20px]"
               />
               <img
                 src={playicon}
                 alt=""
-                className="relative right-5 top-20 w-7 h-7 sm:right-10 sm:top-36 sm:w-10 sm:h-10 "
+                className="relative right-5 top-20 w-7 h-7 sm:right-10 sm:top-36 sm:w-10 sm:h-10"
               />
             </div>
-            <div className="bg-custom-100 rounded-xl xl:pl-80 2xl:pl-32 mt-2 flex flex-col p-5 sm:p-0 justify-center text-start">
+            <div className="bg-custom-100 rounded-xl pl-6 md:pl-10   xl:pl-80 2xl:pl-32 mt-2 flex flex-col p-5 sm:p-0 justify-center text-start">
               <p className="lg:text-xl xl:text-2xl 2xl:text-4xl font-semibold pb-3">
                 Tentang Malang
               </p>
-              <p className="lg:text-xs xl:text-lg 2xl:text-xl pb-3">
+              <p className="lg:text-xs xl:text-lg 2xl:text-xl mr-3 text-sm text-justify sm:text-base pb-3">
                 Kota Malang adalah sebuah kota yang terletak di provinsi Jawa
-                Timur, Indonesia,
-                <br /> Kota terbesar kedua di Jawa Timur setelah Surabaya, dan
-                kota terbesar ke-12 di Indonesia.
-                <br /> Kota ini didirikan pada masa Pemerintahan Belanda pada
+                Timur, Indonesia. Kota terbesar kedua di Jawa Timur setelah Surabaya, dan
+                kota terbesar ke-12 di Indonesia. Kota ini didirikan pada masa Pemerintahan Belanda pada
                 tanggal 1 April 1914 dengan E.K Broeveldt sebagai wali kota
                 pertama.
               </p>
-              <p className="bg-custom-200 w-fit p-3 lg:p-1 xl:p-2 xl:text-xs 2xl:p-4 text-center rounded-full text-white font-semibold">
+              <Link to='/about'>
+              <p className="bg-custom-200 hover:bg-custom-500 w-fit p-3 lg:p-1 xl:p-2 xl:text-xs 2xl:p-4 text-center rounded-full text-white font-semibold">
                 Selengkapnya
               </p>
+              </Link>
             </div>
           </div>
           <div
@@ -262,10 +263,10 @@ function LandingPage() {
                 src={mulai}
                 className="w-auto h-2 hidden sm:block sm:h-10 lg:h-14 xl:h-16"
               />
-              <p>PETUALANGAN</p>
+              <p className="text-custom-500 sm:text-white">PETUALANGAN</p>
             </div>
             <div className="flex text-white font-bold text-xs sm:text-xl lg:text-2xl xl:text-4xl 2xl:text-6xl justify-center gap-3 sm:gap-5 lg:gap-5 xl:gap-10 2xl:gap-20 pt-4">
-              <p>NIKMATI</p>
+              <p className="text-custom-500 sm:text-white">NIKMATI</p>
               <img
                 src={nikmati}
                 className="w-auto h-2 hidden sm:block sm:h-10 lg:h-14 xl:h-16"
@@ -273,7 +274,9 @@ function LandingPage() {
               <p>PENGALAMAN MENAKJUBKAN</p>
             </div>
           </div>
+
           <div id="card" className=" p-5 grid grid-cols-2 sm:grid-cols-4 gap-6">
+            <Link to='destinasi/museum-angkut'>
             <div className="relative group">
               <img
                 src={satu}
@@ -284,12 +287,14 @@ function LandingPage() {
                 Museum Angkut 
               </div>
             </div>
+            </Link>
             <div className="">
               <img src={frame} alt="" />
               <p className="relative bottom-10 left-2 sm:bottom-20 sm:left-4 tex lg:bottom-24 lg:left-4 xl:bottom-36 xl:left-8 text-white font-semibold  lg:text-2xl xl:text-4xl 2xl:text-5xl">
                 Wonderful
               </p>
             </div>
+            <Link to='/destinasi/coban-rondo'>
             <div className="relative group">
               <img
                 src={dua}
@@ -300,6 +305,8 @@ function LandingPage() {
                 Coban Rondo
               </div>
             </div>
+            </Link>
+            <Link to='/destinasi/jatim-park'>
             <div className="relative group">
               <img
                 src={tiga}
@@ -310,6 +317,8 @@ function LandingPage() {
                 Jatim Park 
               </div>
             </div>
+            </Link>
+            <Link to='/destinasi/tugu-malang'>
             <div className="relative group">
               <img
                 src={empat}
@@ -320,6 +329,8 @@ function LandingPage() {
                 Tugu Malang
               </div>
             </div>
+            </Link>
+            <Link to='/destinasi/semeru'>
             <div className="relative group">
               <img
                 src={lima}
@@ -330,12 +341,14 @@ function LandingPage() {
                 Semeru 
               </div>
             </div>
+            </Link>
             <div className="">
               <img src={frame} alt="" />
               <p className="relative bottom-10 left-2 sm:bottom-20 sm:left-4 lg:bottom-24 lg:left-4 xl:bottom-36 xl:left-8 text-white font-semibold lg:text-2xl xl:text-4xl 2xl:text-5xl">
                 Malang
               </p>
             </div>
+            <Link to='/destinasi/museum-angkut'>
             <div className="relative group">
               <img
                 src={enam}
@@ -346,27 +359,33 @@ function LandingPage() {
                 Musem Angkut
               </div>
             </div>
+            </Link>
           </div>
           <div className=" h-10 text-center text-white flex justify-center mb-20">
-            <p className="font-medium bg-custom-200 w-36 rounded-full p-2">
+            <Link to='/destinasi'>
+            <p className="font-medium bg-custom-200 hover:bg-custom-500 w-36 rounded-full p-2">
               Jelajahi
             </p>
+            </Link>
           </div>
+          
           <div className="bg-custom-100 shadow-xl rounded-xl flex justify-between">
             <div className="justify-center w-full relative left-5 sm:left-20 flex flex-col">
-              <p className="font-semibold lg:text-xl xl:text-5xl">
+              <p className="font-semibold text-lg lg:text-xl xl:text-5xl">
                 Hai, Aku Jaka
               </p>
-              <p className="mt-5 lg:text-xl xl:text-3xl">
-                Chatbot yang akan membantumu menjelajahi Malang. <br />
+              <p className="text-start mt-3 sm:mt-5 text-sm lg:text-xl xl:text-3xl">
+                Chatbot AI yang akan membantumu menjelajahi Malang. <br />
                 Tanyakan apapun padaku untuk mengetahui Malang lebih banyak
               </p>
-              <p className="bg-custom-200 w-fit text-white rounded-full text-xs sm:text-lg p-3 mt-4 sm:mt-10">
-                Coba chatbot
+              <Link to='/chatbot'>
+              <p className="text-justify bg-custom-200 hover:bg-custom-500 w-fit text-white rounded-full text-xs sm:text-lg p-3 mt-4 sm:mt-10">
+                Coba Jaka
               </p>
+              </Link>
             </div>
             <div>
-              <img src={bot2} className="mt-64 sm:mt-0" />
+              <img src={bot2} className="mt-64 " />
             </div>
           </div>
         </div>
@@ -381,7 +400,7 @@ function LandingPage() {
 
         <div id="card section" className="w-11/12">
           <div className="flex justify-between">
-            <div className="text-white font-semibold text-2xl ">
+            <div className="text-white font-semibold text-xl pl-4 sm:text-2xl ">
               <p>Terbaru dari kami</p>
             </div>
             <div className=" hidden sm:flex w-10 h-10 gap-4 mr-16">
@@ -390,14 +409,14 @@ function LandingPage() {
             </div>
           </div>
           <section id="card" className="sm:flex justify-around gap-5 mt-8">
-            <div className="my-3">
+            <div className="my-4 mx-3">
               <img src={sunset} alt="" />
-              <div className="bg-white p-5 rounded-b-xl h-44 ">
+              <div className="bg-white p-5 rounded-b-xl h-52 ">
                 <p className="font-normal">baca 3 menit</p>
                 <p className="font-bold">
                   Pecinta sunset? Ayo kunjungi tempat ini!
                 </p>
-                <p className="font-semibold xl:text-sm">
+                <p className="font-thin text-base xl:text-sm">
                   Sunset adalah saat dimana matahari akan segera tenggelam dan
                   justru banyak orang...
                 </p>
@@ -407,14 +426,14 @@ function LandingPage() {
                 </div>
               </div>
             </div>
-            <div className="my-3">
+            <div className="my-4 mx-3">
               <img src={santerra} alt="" />
-              <div className="bg-white p-5 rounded-b-xl h-44">
+              <div className="bg-white p-5 rounded-b-xl h-52">
                 <p className="font-normal">baca 2 menit</p>
                 <p className="font-bold">
                   Wisata Baru! Santerra De Laponte Siap Dikunjungi
                 </p>
-                <p className="font-semibold xl:text-sm">
+                <p className="font-thin text-base xl:text-sm">
                   Malang memang tak pernah habis soal wisatanya. Kali ini,
                   Pemerintah Malang baru saja meresmikan...
                 </p>
@@ -424,12 +443,12 @@ function LandingPage() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="my-4 mx-3">
               <img src={angkot} alt="" />
-              <div className="bg-white p-5 rounded-b-xl h-44">
+              <div className="bg-white p-5 rounded-b-xl h-52">
                 <p className="font-normal">baca 4 menit</p>
                 <p className="font-bold">Liburan? Museum Angkut, Yuk </p>
-                <p className="font-semibold">
+                <p className="font-thin text-base">
                   Museum Angkut adalah salah satu destinasi wisata yang
                   menampilkan berbagai perkem...
                 </p>
@@ -441,9 +460,11 @@ function LandingPage() {
             </div>
           </section>
           <div className="justify-center flex">
+            <Link to='/blog'>
             <p className="bg-custom-200 w-fit text-white rounded-full p-3 mt-10">
               Selengkapnya
             </p>
+            </Link>
           </div>
         </div>
         <div
@@ -451,37 +472,38 @@ function LandingPage() {
           className="bg-custom-100  w-full mt-10 sm:flex justify-around"
         >
           <div className="bg-custom-100 w-full p-10">
-            <p className="text-6xl font-semibold">
+            <p className="text-4xl sm:text-6xl font-semibold">
               Fraquently Asked <br /> Question
             </p>
             <p className="mt-5 text-xl">
               Berikut beberapa jawaban yang segera membantu pertanyaanmu dan
               jika tidak ada, tanyakan pada admin di bawah ini ya!
             </p>
-            <p className="bg-custom-200 w-fit text-white rounded-full px-8 py-4 mt-10 text-xl">
+            <p className="bg-custom-200 hover:bg-custom-500 w-fit text-white font-semibold rounded-full px-8 py-4 mt-10 text-xl">
               Tanya
             </p>
           </div>
-          <div className=" w-full p-10">
+          <div className=" w-full px-10 pb-10">
             <FaQItem />
           </div>
         </div>
-        <div id="komentar" className="w-11/12 mt-10">
+
+        <div id="komentar" className="w-10/12 sm:w-11/12 mt-10">
           <div id="card section" className="w-11/12">
             <div className="flex justify-between">
-              <div className="text-white font-semibold text-2xl ">
+              <div className="text-white font-semibold text-xl sm:text-2xl ">
                 <p>Terbaru dari kami</p>
               </div>
-              <div className="hidden sm:flex w-10 h-10 gap-4 mr-16">
+              <div className="hidden sm:flex w-10 h-10 gap-4 mr-4">
                 <img src={left} alt="" />
                 <img src={right} alt="" />
               </div>
             </div>
           </div>
           <div className=" sm:flex sm:gap-16 justify-around mt-5">
-            <div className="bg-custom-100 p-5 rounded-2xl flex flex-col gap-5 ">
-              <p className="font-bold text-2xl">"Tempatnya bagus.sejuk"</p>
-              <p className="text-lg">
+            <div className="bg-custom-100 p-5 rounded-2xl flex flex-col justify-between h-72 sm:mx-3 my-2 gap-5 ">
+              <p className="font-bold text-xl sm:text-2xl">"Tempatnya bagus.sejuk"</p>
+              <p className="font-thin">
                 Tempatnya enak, rapi, sejuk, bagus banget kalo liburan <br />{" "}
                 bawa keluarga ke sini ada seluncuran pelangi yang <br /> viral
                 itu juga. bagus dehh pokoknya
@@ -496,9 +518,9 @@ function LandingPage() {
                 </div>
               </div>
             </div>
-            <div className="bg-custom-100 p-5 rounded-2xl flex flex-col gap-5 my-2">
-              <p className="font-bold text-2xl">"bagus poll"</p>
-              <p className="text-lg">
+            <div className="bg-custom-100 p-5 rounded-2xl flex flex-col justify-between h-72 gap-5 sm:mx-3 my-2">
+              <p className="font-bold text-xl sm:text-2xl">"bagus poll"</p>
+              <p className="font-thin">
                 Udah rencana ke bromo dari tahun kemarin akhirnya
                 <br /> sekarang bisa kesana. bagus bangett meskipun paling bagus{" "}
                 <br /> kesini pas subuh udah gitu hawanya dingin banget
@@ -513,9 +535,9 @@ function LandingPage() {
                 </div>
               </div>
             </div>
-            <div className="bg-custom-100 p-5 rounded-2xl flex flex-col gap-5 my-2">
-              <p className="font-bold text-2xl">“Keluarga pada happy”</p>
-              <p className="text-lg">
+            <div className="bg-custom-100 p-5 rounded-2xl flex flex-col justify-between h-72 gap-5 sm:mx-3 my-2">
+              <p className="font-bold text-xl sm:text-2xl">“Keluarga pada happy”</p>
+              <p className="font-thin">
                 pas banget buat liburan sekolah soalnya anak-anak juga pada{" "}
                 <br /> minta kesini katanya permainannya banyak. eh ternyata{" "}
                 <br /> ga cuma permainan ada museumnya juga, bagus
