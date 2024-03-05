@@ -110,7 +110,7 @@ function ChatBot() {
           <img src={settings} alt="" className="w-12 h-12 ml-4 mt-6" />
         </div>
       </div>
-      <div className="2xl:ml-4 ml-0 h-[780px] 2xl:grid grid-cols-[400px,1370px] gap-4 mt-24 w-full">
+      <div className="2xl:ml-4 ml-0 h-[780px] xl:p-2 2xl:p-0 2xl:grid grid-cols-[400px,1370px] gap-4 mt-24 w-full">
         <div className="Chatbox mb-3 2xl:mb-0">
           <div className="flex justify-between">
             <p className="text-2xl font-medium font-sans ml-4 lg:ml-0">Chat</p>
@@ -214,7 +214,7 @@ function ChatBot() {
             </div>
           </div>
         </div>
-        <div className="bg-white rounded-xl flex justify-center">
+        <div className="bg-white rounded-xl flex justify-center ">
           <div
             id="isi-chat"
             className="2xl:w-3/4  flex flex-col items-center h-full p-2 2xl:p-5"
