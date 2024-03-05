@@ -473,19 +473,19 @@ function CobanRondo() {
         <div className="px-2 sm:px-6">
           <Slider className="w-full py-12 mb-12 " {...settings}>
             <div className="">
-              <a href="./tugu-malang">
+              
                 <img className="w-5/6" src={destinasi1} alt="" />
-              </a>
+              
             </div>
             <div className="">
-              <a href="./museum-angkut">
+              
                 <img className="w-5/6" src={destinasi2} alt="" />
-              </a>
+              
             </div>
             <div className="">
-              <a href="./jatim-park">
+              
                 <img className="w-5/6" src={destinasi3} alt="" />
-              </a>
+              
             </div>
           </Slider>
         </div>

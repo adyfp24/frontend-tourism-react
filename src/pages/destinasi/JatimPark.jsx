@@ -378,19 +378,19 @@ function Jatimpark() {
               <div className='px-2 sm:px-6'>
                   <Slider className='w-full py-12 mb-12 ' {...settings}>
                       <div className=''>
-                        <a href="./museum-angkut">
+                        
                           <img className='w-5/6' src={angkot} alt="" />
-                        </a>
+                        
                       </div>
                       <div className=''>
-                        <a href="./tugu-malang">
+                        
                           <img className='w-5/6' src={tugulain} alt="" />
-                        </a>
+                        
                       </div>
                       <div className=''>
-                        <a href="./coban-rondo">
+                        
                           <img className='w-5/6' src={coban} alt="" />
-                        </a>
+                        
                       </div>
                   </ Slider>
               </div>
