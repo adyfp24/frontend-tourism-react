@@ -99,7 +99,6 @@ function Destinasi() {
             </div>
             <div className=''>
               <a href="./destinasi/museum-angkut">
-
               <img className='w-5/6' src={destinasi2} alt="" />
               </a>
             </div>
@@ -112,7 +111,7 @@ function Destinasi() {
 
       <iframe className='w-full h-72 sm:h-screen' src='https://www.youtube.com/embed/fC2TW1mshxs?si=9jfWTZmcXU9otGgn'
         frameborder='0'
-        allow='autoplay; encrypted-media'
+          allow='autoplay; encrypted-media'
         allowfullscreen
         title='video'
       />
