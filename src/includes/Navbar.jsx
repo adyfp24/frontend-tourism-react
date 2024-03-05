@@ -29,12 +29,12 @@ function Navbar() {
                             MalangKuy
                         </Link>
                         <div className="hidden md:flex space-x-5 items-center">
-                            <ul className="hidden md:flex mx-auto font-light font-sans font-heading space-x-8">
-                                <li><button onClick={() => navigateTo('/')}>Beranda</button></li>
-                                <li><button onClick={() => navigateTo('/about')}>Tentang</button></li>
-                                <li><button onClick={() => navigateTo('/destinasi')}>Destinasi</button></li>
-                                <li><button onClick={() => navigateTo('/blog')}>Blog</button></li>
-                                <li><button onClick={() => navigateTo('/auth')} className="bg-custom-200 text-white font-sans font-normal px-8 py-2 rounded-2xl hover:bg-white hover:text-black">Login</button></li>
+                            <ul className="hidden md:flex mx-auto items-center font-thin font-sans font-heading space-x-8">
+                                <li className='hover:text-custom-500'><button onClick={() => navigateTo('/')}>Beranda</button></li>
+                                <li className='hover:text-custom-500'><button onClick={() => navigateTo('/about')}>Tentang</button></li>
+                                <li className='hover:text-custom-500'><button onClick={() => navigateTo('/destinasi')}>Destinasi</button></li>
+                                <li className='hover:text-custom-500'><button onClick={() => navigateTo('/blog')}>Blog</button></li>
+                                <li className='hover:text-custom-500'><button onClick={() => navigateTo('/auth')} className="bg-custom-200 text-white font-sans font-normal px-8 py-2 rounded-2xl hover:bg-white hover:text-black">Login</button></li>
                             </ul>
                         </div>
                     </div>
