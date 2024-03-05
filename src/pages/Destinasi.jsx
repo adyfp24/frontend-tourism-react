@@ -67,13 +67,22 @@ function Destinasi() {
         <div className='px-1 sm:px-6'>
           <Slider className='w-full py-6 sm:py-12 mb-12 px-2' {...settings}>
             <div className=''>
+              <a href="./destinasi/tugu-malang">
+
               <img className='w-5/6' src={destinasi1} alt="" />
+              </a>
             </div>
             <div className=''>
+              <a href="./destinasi/museum-angkut">
+
               <img className='w-5/6' src={destinasi2} alt="" />
+              </a>
             </div>
             <div className=''>
+              <a href="./destinasi/jatim-park">
+
               <img className='w-5/6' src={destinasi3} alt="" />
+              </a>
             </div>
           </ Slider>
         </div>
@@ -89,7 +98,12 @@ function Destinasi() {
               <img className='w-5/6' src={destinasi5} alt="" />
             </div>
             <div className=''>
+              <a href="./destinasi/museum-angkut">
               <img className='w-5/6' src={destinasi2} alt="" />
+              </a>
+            </div>
+            <div className=''>
+              <img className='w-5/6' src={destinasi3} alt="" />
             </div>
           </ Slider>
         </div>
@@ -97,7 +111,7 @@ function Destinasi() {
 
       <iframe className='w-full h-72 sm:h-screen' src='https://www.youtube.com/embed/fC2TW1mshxs?si=9jfWTZmcXU9otGgn'
         frameborder='0'
-        allow='autoplay; encrypted-media'
+          allow='autoplay; encrypted-media'
         allowfullscreen
         title='video'
       />
