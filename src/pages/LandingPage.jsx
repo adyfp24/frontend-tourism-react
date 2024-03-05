@@ -36,6 +36,7 @@ import arrowdown from "../assets/images/landingpage/arrowdown.png";
 import starlima from "../assets/images/landingpage/rate 5.png";
 import tipsMalang from "../assets/images/tips-malang.png";
 import starempat from "../assets/images/landingpage/rate 4.png";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -274,6 +275,7 @@ function LandingPage() {
             </div>
           </div>
           <div id="card" className=" p-5 grid grid-cols-2 sm:grid-cols-4 gap-6">
+            <Link to='destinasi/museum-angkut'>
             <div className="relative group">
               <img
                 src={satu}
@@ -284,12 +286,14 @@ function LandingPage() {
                 Museum Angkut 
               </div>
             </div>
+            </Link>
             <div className="">
               <img src={frame} alt="" />
               <p className="relative bottom-10 left-2 sm:bottom-20 sm:left-4 tex lg:bottom-24 lg:left-4 xl:bottom-36 xl:left-8 text-white font-semibold  lg:text-2xl xl:text-4xl 2xl:text-5xl">
                 Wonderful
               </p>
             </div>
+            <Link to='/destinasi/coban-rondo'>
             <div className="relative group">
               <img
                 src={dua}
@@ -300,6 +304,8 @@ function LandingPage() {
                 Coban Rondo
               </div>
             </div>
+            </Link>
+            <Link to='/destinasi/jatim-park'>
             <div className="relative group">
               <img
                 src={tiga}
@@ -310,6 +316,8 @@ function LandingPage() {
                 Jatim Park 
               </div>
             </div>
+            </Link>
+            <Link to='/destinasi/tugu-malang'>
             <div className="relative group">
               <img
                 src={empat}
@@ -320,6 +328,8 @@ function LandingPage() {
                 Tugu Malang
               </div>
             </div>
+            </Link>
+            <Link to='/destinasi/semeru'>
             <div className="relative group">
               <img
                 src={lima}
@@ -330,12 +340,14 @@ function LandingPage() {
                 Semeru 
               </div>
             </div>
+            </Link>
             <div className="">
               <img src={frame} alt="" />
               <p className="relative bottom-10 left-2 sm:bottom-20 sm:left-4 lg:bottom-24 lg:left-4 xl:bottom-36 xl:left-8 text-white font-semibold lg:text-2xl xl:text-4xl 2xl:text-5xl">
                 Malang
               </p>
             </div>
+            <Link to='/destinasi/museum-angkut'>
             <div className="relative group">
               <img
                 src={enam}
@@ -346,11 +358,14 @@ function LandingPage() {
                 Musem Angkut
               </div>
             </div>
+            </Link>
           </div>
           <div className=" h-10 text-center text-white flex justify-center mb-20">
+            <Link to='/destinasi2'>
             <p className="font-medium bg-custom-200 w-36 rounded-full p-2">
               Jelajahi
             </p>
+            </Link>
           </div>
           <div className="bg-custom-100 shadow-xl rounded-xl flex justify-between">
             <div className="justify-center w-full relative left-5 sm:left-20 flex flex-col">
@@ -358,12 +373,14 @@ function LandingPage() {
                 Hai, Aku Jaka
               </p>
               <p className="mt-5 lg:text-xl xl:text-3xl">
-                Chatbot yang akan membantumu menjelajahi Malang. <br />
+                Chatbot AI yang akan membantumu menjelajahi Malang. <br />
                 Tanyakan apapun padaku untuk mengetahui Malang lebih banyak
               </p>
+              <Link to='/chatbot'>
               <p className="bg-custom-200 w-fit text-white rounded-full text-xs sm:text-lg p-3 mt-4 sm:mt-10">
-                Coba chatbot
+                Coba Jaka
               </p>
+              </Link>
             </div>
             <div>
               <img src={bot2} className="mt-64 sm:mt-0" />
