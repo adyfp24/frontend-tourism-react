@@ -98,7 +98,7 @@ function ChatBot() {
   return (
     <div className="bg-custom-100 w-screen h-screen flex font-sans">
       <Navbar />
-      <div className="bg-white lg:h-[800px] hidden lg:block w-24 mt-20 rounded-tr-3xl rounded-br-3xl">
+      <div className="bg-white lg:h-[800px] hidden xl:block w-24 mt-20 rounded-tr-3xl rounded-br-3xl">
         <div className="flex">
           <img src="" alt="" className="mt-10" />
           <img src={chat} alt="" className="w-12 h-12 mt-10 ml-2 " />
@@ -110,8 +110,8 @@ function ChatBot() {
           <img src={settings} alt="" className="w-12 h-12 ml-4 mt-6" />
         </div>
       </div>
-      <div className="lg:ml-4 ml-0 h-[780px] lg:grid grid-cols-[400px,1370px] gap-4 mt-24 w-full">
-        <div className="Chatbox mb-3 lg:mb-0">
+      <div className="xl:ml-4 ml-0 h-[780px] xl:grid grid-cols-[400px,1370px] gap-4 mt-24 w-full">
+        <div className="Chatbox mb-3 xl:mb-0">
           <div className="flex justify-between">
             <p className="text-2xl font-medium font-sans ml-4 lg:ml-0">Chat</p>
             <div className=" flex justify-between mr-4 lg:mr-0">
@@ -122,7 +122,7 @@ function ChatBot() {
             </div>
           </div>
          
-          <div className="bg-slate-100 hidden lg:flex justify-around mt-4 h-24 rounded-xl">
+          <div className="bg-slate-100 hidden xl:flex justify-around mt-4 h-24 rounded-xl">
             <div className="m-4 bg-white w-full rounded-xl flex items-center justify-center">
               <img src={chatmini} alt="" className="w-5 h-5 " />
               <p className="text-center p-2 font-bold text-custom-200">CHAT</p>
@@ -131,7 +131,7 @@ function ChatBot() {
               </div>
             </div>
             {isChatVisible && <SideChat />}
-            <div className="m-4 w-full hidden lg:flex justify-around ">
+            <div className="m-4 w-full hidden xl:flex justify-around ">
               <div className="m-4  w-full rounded-xl flex items-center justify-center">
                 <img src={save} alt="" />
                 <p className="flex justify-center p-4 font-bold">SIMPAN</p>
@@ -141,7 +141,7 @@ function ChatBot() {
               </div>
             </div>           
           </div>
-          <div id="searchbar" className="hidden lg:block mt-4">
+          <div id="searchbar" className="hidden xl:block mt-4">
             <div className="flex justify-between">
               <div className="flex items-center bg-slate-100 w-full  rounded-lg">
                 <img src={search} alt="search" className="p-2 w-10 h-10 ml-2" />
@@ -152,7 +152,7 @@ function ChatBot() {
               </div>
             </div>
           </div>
-          <div id="chat" className="hidden lg:block mt-6">
+          <div id="chat" className="hidden xl:block mt-6">
             <div>
               <div className="judul flex">
                 <div>
@@ -227,7 +227,7 @@ function ChatBot() {
                   className="h-8 w-8 lg:w-12 lg:h-12"
                 />
                 <p className="font-medium ml-3">You</p>
-                <p className="ml-2 lg:ml-8 mt-1 text-xs ">24 Sep ▪ 11:30 PM</p>
+                <p className="ml-2 xl:ml-8 mt-1 text-xs ">24 Sep ▪ 11:30 PM</p>
               </div>
               <div className="flex items-start text-sm lg:text-base ml-10 lg:ml-14">
                 <p>Sekarang boleh mendaki ke Gunung Semeru ?</p>
@@ -237,7 +237,7 @@ function ChatBot() {
             <div className="w-full mt-2 lg:mt-0">
               <div className="flex justify-start ml-6 text-center ">
                 <h1 className="font-semibold">Jaka </h1>
-                <h6 className="ml-2 text-xs lg:text-base mt-1">
+                <h6 className="ml-2 text-xs xl:text-base mt-1">
                   24 Sep ▪ 11:30 PM
                 </h6>
               </div>
@@ -255,24 +255,24 @@ function ChatBot() {
                   pada bulan lalu, namun pihak pemerhati lingkungan terus
                   berupaya memadamkan api dan memastikan kawasan pendakian aman{" "}
                 </h1>
-                <div className="flex mt-2 lg:mt-0 lg:justify-end items-center gap-4">
-                  <div className="flex bg-custom-200 p-1 lg:p-2 items-center rounded-lg gap-2">
+                <div className="flex mt-2 xl:mt-0 xl:justify-end items-center gap-4">
+                  <div className="flex bg-custom-200 p-1 xl:p-2 items-center rounded-lg gap-2">
                     <img
                       src={generate}
                       alt=""
-                      className="h-3 w-3 lg:h-6 lg:w-6"
+                      className="h-3 w-3 xl:h-6 xl:w-6"
                     />
                     <p>Generate Respon</p>
                   </div>
-                  <div className="flex bg-custom-200 p-1 lg:p-2 rounded-lg gap-2">
-                    <img src={copy} alt="" className="w-4 lg:w-5" />
+                  <div className="flex bg-custom-200 p-1 xl:p-2 rounded-lg gap-2">
+                    <img src={copy} alt="" className="w-4 lg:w-4 xl:w-4" />
                     <p>Salin</p>
                   </div>
                   <div className="bg-custom-200 p-2 rounded-lg">
                     <img
                       src={bookmark}
                       alt=""
-                      className="h-3 w-3 lg:h-5 lg:w-4"
+                      className="h-3 w-3 xl:h-5 xl:w-4"
                     />
                   </div>
                 </div>
@@ -291,17 +291,17 @@ function ChatBot() {
                   className="h-8 w-8 lg:w-12 lg:h-12"
                 />
                 <p className="font-medium ml-3">You</p>
-                <p className="ml-2 lg:ml-8 mt-1 text-xs ">1 min lalu</p>
+                <p className="ml-2 xl:ml-8 mt-1 text-xs ">1 min lalu</p>
               </div>
-              <div className="flex items-start text-sm lg:text-base ml-10 lg:ml-14">
+              <div className="flex items-start text-sm xl:text-base ml-10 lg:ml-14">
                 <p>Ke Gunung Semeru butuh jaket berapa ? </p>
                 <img src={edit} alt="edit" className="w-3 h-3 mt-2 ml-3" />
               </div>
             </div>
-            <div className="w-full mt-2 lg:mt-0">
+            <div className="w-full mt-2 xl:mt-0">
               <div className="flex justify-start ml-6">
                 <h1 className="font-semibold">Jaka </h1>
-                <h6 className="ml-2 text-xs lg:text-base mt-1">
+                <h6 className="ml-2 text-xs xl:text-base mt-1">
                   24 Sep ▪ 11:30 PM
                 </h6>
               </div>
@@ -309,10 +309,10 @@ function ChatBot() {
                 <img
                   src={bot}
                   alt="bot ava"
-                  className="absolute z-1 w-8 h-8 lg:z-1 lg:w-10 lg:h-10"
+                  className="absolute z-1 w-8 h-8 xl:z-1 xl:w-10 xl:h-10"
                 />
               </div>
-              <div className="bg-custom-600 text-sm lg:text-base  z-0 ml-2 p-5  lg:ml-4 lg:p-8 rounded-2xl mb-4">
+              <div className="bg-custom-600 text-sm xl:text-base  z-0 ml-2 p-5  xl:ml-4 xl:p-8 rounded-2xl mb-4">
                 <h1>
                   Ketersediaan jaket tergantung pada masing-masing kebutuhan
                   orang. Tapi untuk keamanan dan kenyamanan pastikan membawa
@@ -320,24 +320,24 @@ function ChatBot() {
                   pastikan tubuhmu dapat beradaptasi dengan cepat terhadap suhu
                   dingin
                 </h1>
-                <div className="flex mt-2 lg:mt-0 lg:justify-end items-center gap-4">
-                  <div className="flex bg-custom-200 p-1 lg:p-2 items-center rounded-lg gap-2">
+                <div className="flex mt-2 xl:mt-0 xl:justify-end items-center gap-4">
+                  <div className="flex bg-custom-200 p-1 xl:p-2 items-center rounded-lg gap-2">
                     <img
                       src={generate}
                       alt=""
-                      className="h-3 w-3 lg:h-6 lg:w-6"
+                      className="h-3 w-3 xl:h-6 xl:w-6"
                     />
                     <p>Generate Respon</p>
                   </div>
                   <div className="flex bg-custom-200 p-1 lg:p-2 rounded-lg gap-2">
-                    <img src={copy} alt="" className="w-4 lg:w-5" />
+                    <img src={copy} alt="" className="w-4 lg:w-4 xl:w-4" />
                     <p>Salin</p>
                   </div>
                   <div className="bg-custom-200 p-2 rounded-lg">
                     <img
                       src={bookmark}
                       alt=""
-                      className="h-3 w-3 lg:h-5 lg:w-4"
+                      className="h-3 w-3 xl:h-5 xl:w-4"
                     />
                   </div>
                 </div>
