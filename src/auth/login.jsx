@@ -47,9 +47,8 @@ const AuthCard = () => {
     <div className="bg-custom-300 flex items-center justify-center h-screen">
       <img src={bg2} className="absolute top-0 left-0" />
       <img src={bg1} className="absolute bottom-0 right-0  " />
-      <div id="box" className=" bg-gray-200 w-4/5 sm:w-3/5 rounded-2xl flex flex-col p-2 lg:p-4 shadow-lg z-10">
+      <div id="box" className=" bg-gray-200 w-4/5 sm:w-3/5 rounded-2xl flex flex-col p-2 lg:p-1 shadow-lg z-10">
         <div id="select" className=" flex ">
-
           <p
             className={`cursor-pointer px-2 py-2 md:py-5 lg:px-4 text-2xl md:text-5xl font-bold ${isLoginForm ? "font-bold" : "text-slate-400"
               }`}
@@ -78,7 +77,7 @@ const AuthCard = () => {
 
 const LoginForm = () => {
   return (
-    <div className="mt-3 px-1 md:px-5 lg:px-10">
+    <div className="mt-3 px-1 md:px-5 lg:px-12">
       <form className="p-1 md:p-5 lg:p-10">
         <div className="mb-4">
           <label htmlFor="email" className="block text-gray-700 lg:text-xl">Email</label>
@@ -91,19 +90,19 @@ const LoginForm = () => {
           " htmlFor="remember">ingat saya</label>
         </div>
         <Link to='/'>
-          <button className="bg-custom-200 text-white py-4 px-4 rounded-xl mt-4 w-full hover:bg-custom-500 font-semibold lg:text-2xl">Masuk</button>
+          <button className="bg-custom-200 text-white md:py-3 xl:py-4 px-4 rounded-xl mt-4 w-full hover:bg-custom-500 font-semibold lg:text-2xl">Masuk</button>
         </Link>
         <p className="text-center text-xl text-slate-600  mt-3 ">atau</p>
         <div className="flex gap-2 mt-5 justify-center ">
           <button id="facebook" className="bg-blue-500 w-1/3 sm:w-full rounded-xl flex text-white p-3 text-base
            text-start items-center justify-center gap-2">
-            <img src={fb} className="w-15 sm:w-10 ml-2" />
-            <p className="sm:block hidden">Masuk dengan facebook</p>
+            <img src={fb} className="w-15 sm:w-7 xl:w-10 ml-2" />
+            <p className="md:block hidden">Masuk dengan facebook</p>
           </button>
           <button id="facebook" className="bg-slate-800 w-1/3 sm:w-full rounded-xl flex text-white p-3 text-base
            text-start items-center justify-center gap-2">
-            <img src={google} className="w-15 sm:w-10 " />
-            <p className="sm:block hidden">Masuk dengan google</p>
+            <img src={google} className="w-15 sm:w-7 xl:w-10 " />
+            <p className="md:block hidden">Masuk dengan google</p>
           </button>
         </div>
       </form>
@@ -130,17 +129,17 @@ const RegisterForm = () => {
           <label className="ml-4 lg:text-xl" htmlFor="remember">ingat saya</label>
         </div>
         <Link to='/'>
-          <button className="bg-custom-200 text-white py-4 px-4 rounded-xl mt-4 w-full hover:bg-custom-500 font-semibold lg:text-2xl">Daftar</button>
+          <button className="bg-custom-200 text-white md:py-3 xl:py-4px-4 rounded-xl mt-4 w-full hover:bg-custom-500 font-semibold lg:text-2xl">Daftar</button>
         </Link>
         <p className="text-center text-slate-600 text-xl mt-3 ">atau</p>
         <div className="flex gap-2 mt-5 justify-center">
           <button id="facebook" className="bg-blue-500 hover:bg-blue-400 w-1/3 sm:w-full rounded-xl flex text-white p-3 text-base text-start items-center justify-center gap-2">
-            <img src={fb} className="w-15 sm:w-10 sm:ml-2" />
-            <p className="sm:block hidden">Daftar dengan facebook</p>
+            <img src={fb} className="w-15 sm:w-7 xl:w-10  sm:ml-2" />
+            <p className="md:block hidden">Daftar dengan facebook</p>
           </button>
           <button id="facebook" className="bg-slate-800 hover:bg-slate-700 w-1/3 sm:w-full rounded-xl flex text-white p-3 text-base text-start items-center  justify-center gap-2 ">
-            <img src={google} className="w-15 sm:w-10" />
-            <p className="sm:block hidden">Daftar dengan google</p>
+            <img src={google} className="w-15 sm:w-7 xl:w-10 " />
+            <p className="md:block hidden">Daftar dengan google</p>
           </button>
         </div>
       </form>
